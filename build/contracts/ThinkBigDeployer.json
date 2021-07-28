@@ -39,41 +39,41 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_instance\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_player\",\"type\":\"address\"}],\"name\":\"check\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"newInstance\",\"outputs\":[{\"internalType\":\"contract ThinkBig\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_3_Deployer.sol\":\"ThinkBigDeployer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_3.sol\":{\"keccak256\":\"0xc418abf310229f5a2b9b33645502e355693db2610a027d837158e354554e7089\",\"urls\":[\"bzz-raw://ca0add3ebfa4e467334efe236124c33b87b89c5b010cea6a0eecc4e1139938a8\",\"dweb:/ipfs/QmeMEh7QWsfnNscVHZCeoXh5Cgcyw1r4MyB7tfsRFFZVzi\"]},\"/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_3_Deployer.sol\":{\"keccak256\":\"0x3378d14e3ba69d96b29f4d082f2cd3190c5b3f3d6fc4216db1ee9debab6f770c\",\"urls\":[\"bzz-raw://e5b458d8b2422c8bc6d9a240fb258a82cd783872f1ee387bd1d31a0417759f4c\",\"dweb:/ipfs/QmeXBaYyCfyY5dyTxWbsx9TL292QcoE34d9sXHENEQP1Z7\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506102c7806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906101cd565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b600080839050600115158173ffffffffffffffffffffffffffffffffffffffff16639d9a7fe96040518163ffffffff1660e01b815260040160206040518083038186803b15801561018657600080fd5b505afa15801561019a573d6000803e3d6000fd5b505050506040513d60208110156101b057600080fd5b810190808051906020019092919050505015151491505092915050565b60b8806101da8339019056fe60806040526002600155348015601457600080fd5b506095806100236000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80639d9a7fe914602d575b600080fd5b6033604d565b604051808215151515815260200191505060405180910390f35b6000809054906101000a900460ff168156fea264697066735822122080e7693674a5d230342ef47a7b8f9e16b755870db6d55142236e61d7c28f8c7064736f6c63430006020033a26469706673582212209cca88648214dc1c3c3779117e505c9fa4c28fbfe84400e9a02808458ba769fd64736f6c63430006020033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906101cd565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b600080839050600115158173ffffffffffffffffffffffffffffffffffffffff16639d9a7fe96040518163ffffffff1660e01b815260040160206040518083038186803b15801561018657600080fd5b505afa15801561019a573d6000803e3d6000fd5b505050506040513d60208110156101b057600080fd5b810190808051906020019092919050505015151491505092915050565b60b8806101da8339019056fe60806040526002600155348015601457600080fd5b506095806100236000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80639d9a7fe914602d575b600080fd5b6033604d565b604051808215151515815260200191505060405180910390f35b6000809054906101000a900460ff168156fea264697066735822122080e7693674a5d230342ef47a7b8f9e16b755870db6d55142236e61d7c28f8c7064736f6c63430006020033a26469706673582212209cca88648214dc1c3c3779117e505c9fa4c28fbfe84400e9a02808458ba769fd64736f6c63430006020033",
-  "sourceMap": "49:318:9:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:318:9;;;;;;;",
-  "deployedSourceMap": "49:318:9:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:318:9;;;;;;;;;;;;;;;;;;;;;;;;80:116;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;200:165;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;200:165:9;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;80:116;120:8;136:17;156:14;;;;;:::i;:::-;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;156:14:9;136:34;;183:8;176:15;;;80:116;:::o;200:165::-;268:4;280:17;309:9;280:39;;356:4;332:28;;:8;:18;;;:20;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;332:20:9;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;332:20:9;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;332:20:9;;;;;;;;;;;;;;;;:28;;;325:35;;;200:165;;;;:::o;49:318::-;;;;;;;;:::o",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_instance\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_player\",\"type\":\"address\"}],\"name\":\"check\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"newInstance\",\"outputs\":[{\"internalType\":\"contract ThinkBig\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Game/Levels/Level_3_Deployer.sol\":\"ThinkBigDeployer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Game/Levels/Level_3.sol\":{\"keccak256\":\"0xc418abf310229f5a2b9b33645502e355693db2610a027d837158e354554e7089\",\"urls\":[\"bzz-raw://ca0add3ebfa4e467334efe236124c33b87b89c5b010cea6a0eecc4e1139938a8\",\"dweb:/ipfs/QmeMEh7QWsfnNscVHZCeoXh5Cgcyw1r4MyB7tfsRFFZVzi\"]},\"project:/contracts/Game/Levels/Level_3_Deployer.sol\":{\"keccak256\":\"0x3378d14e3ba69d96b29f4d082f2cd3190c5b3f3d6fc4216db1ee9debab6f770c\",\"urls\":[\"bzz-raw://e5b458d8b2422c8bc6d9a240fb258a82cd783872f1ee387bd1d31a0417759f4c\",\"dweb:/ipfs/QmeXBaYyCfyY5dyTxWbsx9TL292QcoE34d9sXHENEQP1Z7\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506102c7806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906101cd565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b600080839050600115158173ffffffffffffffffffffffffffffffffffffffff16639d9a7fe96040518163ffffffff1660e01b815260040160206040518083038186803b15801561018657600080fd5b505afa15801561019a573d6000803e3d6000fd5b505050506040513d60208110156101b057600080fd5b810190808051906020019092919050505015151491505092915050565b60b8806101da8339019056fe60806040526002600155348015601457600080fd5b506095806100236000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80639d9a7fe914602d575b600080fd5b6033604d565b604051808215151515815260200191505060405180910390f35b6000809054906101000a900460ff168156fea2646970667358221220da810f46718a3577fa664ef1cedd935b727dd88b4773fc0c31262f08db676c9e64736f6c63430006020033a2646970667358221220e7a037dfc7d5249510b49e70b5d87801bdbceeab62a2723a045b91d617b450d164736f6c63430006020033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906101cd565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b600080839050600115158173ffffffffffffffffffffffffffffffffffffffff16639d9a7fe96040518163ffffffff1660e01b815260040160206040518083038186803b15801561018657600080fd5b505afa15801561019a573d6000803e3d6000fd5b505050506040513d60208110156101b057600080fd5b810190808051906020019092919050505015151491505092915050565b60b8806101da8339019056fe60806040526002600155348015601457600080fd5b506095806100236000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80639d9a7fe914602d575b600080fd5b6033604d565b604051808215151515815260200191505060405180910390f35b6000809054906101000a900460ff168156fea2646970667358221220da810f46718a3577fa664ef1cedd935b727dd88b4773fc0c31262f08db676c9e64736f6c63430006020033a2646970667358221220e7a037dfc7d5249510b49e70b5d87801bdbceeab62a2723a045b91d617b450d164736f6c63430006020033",
+  "sourceMap": "49:318:25:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:318:25;;;;;;;",
+  "deployedSourceMap": "49:318:25:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:318:25;;;;;;;;;;;;;;;;;;;;;;;;80:116;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;200:165;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;200:165:25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;80:116;120:8;136:17;156:14;;;;;:::i;:::-;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;156:14:25;136:34;;183:8;176:15;;;80:116;:::o;200:165::-;268:4;280:17;309:9;280:39;;356:4;332:28;;:8;:18;;;:20;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;332:20:25;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;332:20:25;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;332:20:25;;;;;;;;;;;;;;;;:28;;;325:35;;;200:165;;;;:::o;49:318::-;;;;;;;;:::o",
   "source": "pragma solidity 0.6.2;\n\nimport './Level_3.sol';\n\ncontract ThinkBigDeployer {\n\n  function newInstance () public returns (ThinkBig) {\n    ThinkBig instance = new ThinkBig();\n    return instance;\n  }\n\n  function check (address _instance, address _player) public returns (bool) {\n    ThinkBig instance = ThinkBig(_instance);\n    return instance.completed() == true;\n  }\n}\n",
-  "sourcePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_3_Deployer.sol",
+  "sourcePath": "/Users/gupadhyaya/go/src/github.com/harmony-one/IotDevsGame/contracts/Game/Levels/Level_3_Deployer.sol",
   "ast": {
-    "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_3_Deployer.sol",
+    "absolutePath": "project:/contracts/Game/Levels/Level_3_Deployer.sol",
     "exportedSymbols": {
       "ThinkBigDeployer": [
-        726
+        3944
       ]
     },
-    "id": 727,
+    "id": 3945,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 688,
+        "id": 3906,
         "literals": [
           "solidity",
           "0.6",
           ".2"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:22:9"
+        "src": "0:22:25"
       },
       {
-        "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_3.sol",
+        "absolutePath": "project:/contracts/Game/Levels/Level_3.sol",
         "file": "./Level_3.sol",
-        "id": 689,
+        "id": 3907,
         "nodeType": "ImportDirective",
-        "scope": 727,
-        "sourceUnit": 687,
-        "src": "24:23:9",
+        "scope": 3945,
+        "sourceUnit": 3905,
+        "src": "24:23:25",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -81,52 +81,52 @@
         "abstract": false,
         "baseContracts": [],
         "contractDependencies": [
-          686
+          3904
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 726,
+        "id": 3944,
         "linearizedBaseContracts": [
-          726
+          3944
         ],
         "name": "ThinkBigDeployer",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 702,
+              "id": 3920,
               "nodeType": "Block",
-              "src": "130:66:9",
+              "src": "130:66:25",
               "statements": [
                 {
                   "assignments": [
-                    695
+                    3913
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 695,
+                      "id": 3913,
                       "name": "instance",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-                      "scope": 702,
-                      "src": "136:17:9",
+                      "scope": 3920,
+                      "src": "136:17:25",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ThinkBig_$686",
+                        "typeIdentifier": "t_contract$_ThinkBig_$3904",
                         "typeString": "contract ThinkBig"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 694,
+                        "id": 3912,
                         "name": "ThinkBig",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 686,
-                        "src": "136:8:9",
+                        "referencedDeclaration": 3904,
+                        "src": "136:8:25",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ThinkBig_$686",
+                          "typeIdentifier": "t_contract$_ThinkBig_$3904",
                           "typeString": "contract ThinkBig"
                         }
                       },
@@ -134,37 +134,37 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 699,
+                  "id": 3917,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 697,
+                      "id": 3915,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "NewExpression",
-                      "src": "156:12:9",
+                      "src": "156:12:25",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_ThinkBig_$686_$",
+                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_ThinkBig_$3904_$",
                         "typeString": "function () returns (contract ThinkBig)"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 696,
+                        "id": 3914,
                         "name": "ThinkBig",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 686,
-                        "src": "160:8:9",
+                        "referencedDeclaration": 3904,
+                        "src": "160:8:25",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ThinkBig_$686",
+                          "typeIdentifier": "t_contract$_ThinkBig_$3904",
                           "typeString": "contract ThinkBig"
                         }
                       }
                     },
-                    "id": 698,
+                    "id": 3916,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -172,40 +172,40 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "156:14:9",
+                    "src": "156:14:25",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ThinkBig_$686",
+                      "typeIdentifier": "t_contract$_ThinkBig_$3904",
                       "typeString": "contract ThinkBig"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "136:34:9"
+                  "src": "136:34:25"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 700,
+                    "id": 3918,
                     "name": "instance",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 695,
-                    "src": "183:8:9",
+                    "referencedDeclaration": 3913,
+                    "src": "183:8:25",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ThinkBig_$686",
+                      "typeIdentifier": "t_contract$_ThinkBig_$3904",
                       "typeString": "contract ThinkBig"
                     }
                   },
-                  "functionReturnParameters": 693,
-                  "id": 701,
+                  "functionReturnParameters": 3911,
+                  "id": 3919,
                   "nodeType": "Return",
-                  "src": "176:15:9"
+                  "src": "176:15:25"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "5219cfa5",
-            "id": 703,
+            "id": 3921,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -213,38 +213,38 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 690,
+              "id": 3908,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "101:2:9"
+              "src": "101:2:25"
             },
             "returnParameters": {
-              "id": 693,
+              "id": 3911,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 692,
+                  "id": 3910,
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 703,
-                  "src": "120:8:9",
+                  "scope": 3921,
+                  "src": "120:8:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ThinkBig_$686",
+                    "typeIdentifier": "t_contract$_ThinkBig_$3904",
                     "typeString": "contract ThinkBig"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 691,
+                    "id": 3909,
                     "name": "ThinkBig",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 686,
-                    "src": "120:8:9",
+                    "referencedDeclaration": 3904,
+                    "src": "120:8:25",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ThinkBig_$686",
+                      "typeIdentifier": "t_contract$_ThinkBig_$3904",
                       "typeString": "contract ThinkBig"
                     }
                   },
@@ -252,48 +252,48 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "119:10:9"
+              "src": "119:10:25"
             },
-            "scope": 726,
-            "src": "80:116:9",
+            "scope": 3944,
+            "src": "80:116:25",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 724,
+              "id": 3942,
               "nodeType": "Block",
-              "src": "274:91:9",
+              "src": "274:91:25",
               "statements": [
                 {
                   "assignments": [
-                    713
+                    3931
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 713,
+                      "id": 3931,
                       "name": "instance",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-                      "scope": 724,
-                      "src": "280:17:9",
+                      "scope": 3942,
+                      "src": "280:17:25",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ThinkBig_$686",
+                        "typeIdentifier": "t_contract$_ThinkBig_$3904",
                         "typeString": "contract ThinkBig"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 712,
+                        "id": 3930,
                         "name": "ThinkBig",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 686,
-                        "src": "280:8:9",
+                        "referencedDeclaration": 3904,
+                        "src": "280:8:25",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ThinkBig_$686",
+                          "typeIdentifier": "t_contract$_ThinkBig_$3904",
                           "typeString": "contract ThinkBig"
                         }
                       },
@@ -301,18 +301,18 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 717,
+                  "id": 3935,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 715,
+                        "id": 3933,
                         "name": "_instance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 705,
-                        "src": "309:9:9",
+                        "referencedDeclaration": 3923,
+                        "src": "309:9:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -326,18 +326,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 714,
+                      "id": 3932,
                       "name": "ThinkBig",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 686,
-                      "src": "300:8:9",
+                      "referencedDeclaration": 3904,
+                      "src": "300:8:25",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_ThinkBig_$686_$",
+                        "typeIdentifier": "t_type$_t_contract$_ThinkBig_$3904_$",
                         "typeString": "type(contract ThinkBig)"
                       }
                     },
-                    "id": 716,
+                    "id": 3934,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -345,15 +345,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "300:19:9",
+                    "src": "300:19:25",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ThinkBig_$686",
+                      "typeIdentifier": "t_contract$_ThinkBig_$3904",
                       "typeString": "contract ThinkBig"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "280:39:9"
+                  "src": "280:39:25"
                 },
                 {
                   "expression": {
@@ -362,7 +362,7 @@
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     },
-                    "id": 722,
+                    "id": 3940,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -374,32 +374,32 @@
                         "argumentTypes": [],
                         "expression": {
                           "argumentTypes": null,
-                          "id": 718,
+                          "id": 3936,
                           "name": "instance",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 713,
-                          "src": "332:8:9",
+                          "referencedDeclaration": 3931,
+                          "src": "332:8:25",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ThinkBig_$686",
+                            "typeIdentifier": "t_contract$_ThinkBig_$3904",
                             "typeString": "contract ThinkBig"
                           }
                         },
-                        "id": 719,
+                        "id": 3937,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "completed",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 657,
-                        "src": "332:18:9",
+                        "referencedDeclaration": 3875,
+                        "src": "332:18:25",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_bool_$",
                           "typeString": "function () view external returns (bool)"
                         }
                       },
-                      "id": 720,
+                      "id": 3938,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -407,7 +407,7 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "332:20:9",
+                      "src": "332:20:25",
                       "tryCall": false,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -419,14 +419,14 @@
                     "rightExpression": {
                       "argumentTypes": null,
                       "hexValue": "74727565",
-                      "id": 721,
+                      "id": 3939,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "bool",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "356:4:9",
+                      "src": "356:4:25",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -434,22 +434,22 @@
                       },
                       "value": "true"
                     },
-                    "src": "332:28:9",
+                    "src": "332:28:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 711,
-                  "id": 723,
+                  "functionReturnParameters": 3929,
+                  "id": 3941,
                   "nodeType": "Return",
-                  "src": "325:35:9"
+                  "src": "325:35:25"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "b3154db0",
-            "id": 725,
+            "id": 3943,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -457,17 +457,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 708,
+              "id": 3926,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 705,
+                  "id": 3923,
                   "name": "_instance",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 725,
-                  "src": "216:17:9",
+                  "scope": 3943,
+                  "src": "216:17:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -475,10 +475,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 704,
+                    "id": 3922,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "216:7:9",
+                    "src": "216:7:25",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -490,12 +490,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 707,
+                  "id": 3925,
                   "name": "_player",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 725,
-                  "src": "235:15:9",
+                  "scope": 3943,
+                  "src": "235:15:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -503,10 +503,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 706,
+                    "id": 3924,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "235:7:9",
+                    "src": "235:7:25",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -517,20 +517,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "215:36:9"
+              "src": "215:36:25"
             },
             "returnParameters": {
-              "id": 711,
+              "id": 3929,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 710,
+                  "id": 3928,
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 725,
-                  "src": "268:4:9",
+                  "scope": 3943,
+                  "src": "268:4:25",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -538,10 +538,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 709,
+                    "id": 3927,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "268:4:9",
+                    "src": "268:4:25",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -551,555 +551,621 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "267:6:9"
+              "src": "267:6:25"
             },
-            "scope": 726,
-            "src": "200:165:9",
+            "scope": 3944,
+            "src": "200:165:25",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 727,
-        "src": "49:318:9"
+        "scope": 3945,
+        "src": "49:318:25"
       }
     ],
-    "src": "0:368:9"
+    "src": "0:368:25"
   },
   "legacyAST": {
-    "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_3_Deployer.sol",
-    "exportedSymbols": {
-      "ThinkBigDeployer": [
-        726
-      ]
+    "attributes": {
+      "absolutePath": "project:/contracts/Game/Levels/Level_3_Deployer.sol",
+      "exportedSymbols": {
+        "ThinkBigDeployer": [
+          3944
+        ]
+      }
     },
-    "id": 727,
-    "nodeType": "SourceUnit",
-    "nodes": [
+    "children": [
       {
-        "id": 688,
-        "literals": [
-          "solidity",
-          "0.6",
-          ".2"
-        ],
-        "nodeType": "PragmaDirective",
-        "src": "0:22:9"
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.6",
+            ".2"
+          ]
+        },
+        "id": 3906,
+        "name": "PragmaDirective",
+        "src": "0:22:25"
       },
       {
-        "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_3.sol",
-        "file": "./Level_3.sol",
-        "id": 689,
-        "nodeType": "ImportDirective",
-        "scope": 727,
-        "sourceUnit": 687,
-        "src": "24:23:9",
-        "symbolAliases": [],
-        "unitAlias": ""
+        "attributes": {
+          "SourceUnit": 3905,
+          "absolutePath": "project:/contracts/Game/Levels/Level_3.sol",
+          "file": "./Level_3.sol",
+          "scope": 3945,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 3907,
+        "name": "ImportDirective",
+        "src": "24:23:25"
       },
       {
-        "abstract": false,
-        "baseContracts": [],
-        "contractDependencies": [
-          686
-        ],
-        "contractKind": "contract",
-        "documentation": null,
-        "fullyImplemented": true,
-        "id": 726,
-        "linearizedBaseContracts": [
-          726
-        ],
-        "name": "ThinkBigDeployer",
-        "nodeType": "ContractDefinition",
-        "nodes": [
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            3904
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            3944
+          ],
+          "name": "ThinkBigDeployer",
+          "scope": 3945
+        },
+        "children": [
           {
-            "body": {
-              "id": 702,
-              "nodeType": "Block",
-              "src": "130:66:9",
-              "statements": [
-                {
-                  "assignments": [
-                    695
-                  ],
-                  "declarations": [
-                    {
-                      "constant": false,
-                      "id": 695,
-                      "name": "instance",
-                      "nodeType": "VariableDeclaration",
-                      "overrides": null,
-                      "scope": 702,
-                      "src": "136:17:9",
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ThinkBig_$686",
-                        "typeString": "contract ThinkBig"
-                      },
-                      "typeName": {
-                        "contractScope": null,
-                        "id": 694,
-                        "name": "ThinkBig",
-                        "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 686,
-                        "src": "136:8:9",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ThinkBig_$686",
-                          "typeString": "contract ThinkBig"
-                        }
-                      },
-                      "value": null,
-                      "visibility": "internal"
-                    }
-                  ],
-                  "id": 699,
-                  "initialValue": {
-                    "argumentTypes": null,
-                    "arguments": [],
-                    "expression": {
-                      "argumentTypes": [],
-                      "id": 697,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "lValueRequested": false,
-                      "nodeType": "NewExpression",
-                      "src": "156:12:9",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_ThinkBig_$686_$",
-                        "typeString": "function () returns (contract ThinkBig)"
-                      },
-                      "typeName": {
-                        "contractScope": null,
-                        "id": 696,
-                        "name": "ThinkBig",
-                        "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 686,
-                        "src": "160:8:9",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ThinkBig_$686",
-                          "typeString": "contract ThinkBig"
-                        }
-                      }
-                    },
-                    "id": 698,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "kind": "functionCall",
-                    "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "156:14:9",
-                    "tryCall": false,
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ThinkBig_$686",
-                      "typeString": "contract ThinkBig"
-                    }
-                  },
-                  "nodeType": "VariableDeclarationStatement",
-                  "src": "136:34:9"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 700,
-                    "name": "instance",
-                    "nodeType": "Identifier",
-                    "overloadedDeclarations": [],
-                    "referencedDeclaration": 695,
-                    "src": "183:8:9",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ThinkBig_$686",
-                      "typeString": "contract ThinkBig"
-                    }
-                  },
-                  "functionReturnParameters": 693,
-                  "id": 701,
-                  "nodeType": "Return",
-                  "src": "176:15:9"
-                }
-              ]
-            },
-            "documentation": null,
-            "functionSelector": "5219cfa5",
-            "id": 703,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "newInstance",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 690,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "101:2:9"
-            },
-            "returnParameters": {
-              "id": 693,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 692,
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 703,
-                  "src": "120:8:9",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ThinkBig_$686",
-                    "typeString": "contract ThinkBig"
-                  },
-                  "typeName": {
-                    "contractScope": null,
-                    "id": 691,
-                    "name": "ThinkBig",
-                    "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 686,
-                    "src": "120:8:9",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ThinkBig_$686",
-                      "typeString": "contract ThinkBig"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
+            "attributes": {
+              "documentation": null,
+              "functionSelector": "5219cfa5",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
               ],
-              "src": "119:10:9"
+              "name": "newInstance",
+              "overrides": null,
+              "scope": 3944,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
             },
-            "scope": 726,
-            "src": "80:116:9",
-            "stateMutability": "nonpayable",
-            "virtual": false,
-            "visibility": "public"
-          },
-          {
-            "body": {
-              "id": 724,
-              "nodeType": "Block",
-              "src": "274:91:9",
-              "statements": [
-                {
-                  "assignments": [
-                    713
-                  ],
-                  "declarations": [
-                    {
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3908,
+                "name": "ParameterList",
+                "src": "101:2:25"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
                       "constant": false,
-                      "id": 713,
-                      "name": "instance",
-                      "nodeType": "VariableDeclaration",
+                      "name": "",
                       "overrides": null,
-                      "scope": 724,
-                      "src": "280:17:9",
+                      "scope": 3921,
                       "stateVariable": false,
                       "storageLocation": "default",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_ThinkBig_$686",
-                        "typeString": "contract ThinkBig"
-                      },
-                      "typeName": {
-                        "contractScope": null,
-                        "id": 712,
-                        "name": "ThinkBig",
-                        "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 686,
-                        "src": "280:8:9",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_ThinkBig_$686",
-                          "typeString": "contract ThinkBig"
-                        }
-                      },
+                      "type": "contract ThinkBig",
                       "value": null,
                       "visibility": "internal"
-                    }
-                  ],
-                  "id": 717,
-                  "initialValue": {
-                    "argumentTypes": null,
-                    "arguments": [
+                    },
+                    "children": [
                       {
-                        "argumentTypes": null,
-                        "id": 715,
-                        "name": "_instance",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 705,
-                        "src": "309:9:9",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_address",
-                          "typeString": "address"
-                        }
+                        "attributes": {
+                          "contractScope": null,
+                          "name": "ThinkBig",
+                          "referencedDeclaration": 3904,
+                          "type": "contract ThinkBig"
+                        },
+                        "id": 3909,
+                        "name": "UserDefinedTypeName",
+                        "src": "120:8:25"
                       }
                     ],
-                    "expression": {
-                      "argumentTypes": [
-                        {
-                          "typeIdentifier": "t_address",
-                          "typeString": "address"
-                        }
-                      ],
-                      "id": 714,
-                      "name": "ThinkBig",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 686,
-                      "src": "300:8:9",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_ThinkBig_$686_$",
-                        "typeString": "type(contract ThinkBig)"
-                      }
+                    "id": 3910,
+                    "name": "VariableDeclaration",
+                    "src": "120:8:25"
+                  }
+                ],
+                "id": 3911,
+                "name": "ParameterList",
+                "src": "119:10:25"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        3913
+                      ]
                     },
-                    "id": 716,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "kind": "typeConversion",
-                    "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "300:19:9",
-                    "tryCall": false,
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ThinkBig_$686",
-                      "typeString": "contract ThinkBig"
-                    }
-                  },
-                  "nodeType": "VariableDeclarationStatement",
-                  "src": "280:39:9"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "commonType": {
-                      "typeIdentifier": "t_bool",
-                      "typeString": "bool"
-                    },
-                    "id": 722,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftExpression": {
-                      "argumentTypes": null,
-                      "arguments": [],
-                      "expression": {
-                        "argumentTypes": [],
-                        "expression": {
-                          "argumentTypes": null,
-                          "id": 718,
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
                           "name": "instance",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 713,
-                          "src": "332:8:9",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_ThinkBig_$686",
-                            "typeString": "contract ThinkBig"
-                          }
+                          "overrides": null,
+                          "scope": 3920,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "contract ThinkBig",
+                          "value": null,
+                          "visibility": "internal"
                         },
-                        "id": 719,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "memberName": "completed",
-                        "nodeType": "MemberAccess",
-                        "referencedDeclaration": 657,
-                        "src": "332:18:9",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_function_external_view$__$returns$_t_bool_$",
-                          "typeString": "function () view external returns (bool)"
-                        }
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "ThinkBig",
+                              "referencedDeclaration": 3904,
+                              "type": "contract ThinkBig"
+                            },
+                            "id": 3912,
+                            "name": "UserDefinedTypeName",
+                            "src": "136:8:25"
+                          }
+                        ],
+                        "id": 3913,
+                        "name": "VariableDeclaration",
+                        "src": "136:17:25"
                       },
-                      "id": 720,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "kind": "functionCall",
-                      "lValueRequested": false,
-                      "names": [],
-                      "nodeType": "FunctionCall",
-                      "src": "332:20:9",
-                      "tryCall": false,
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_bool",
-                        "typeString": "bool"
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            null
+                          ],
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "isStructConstructorCall": false,
+                          "lValueRequested": false,
+                          "names": [
+                            null
+                          ],
+                          "tryCall": false,
+                          "type": "contract ThinkBig",
+                          "type_conversion": false
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                null
+                              ],
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "function () returns (contract ThinkBig)"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "contractScope": null,
+                                  "name": "ThinkBig",
+                                  "referencedDeclaration": 3904,
+                                  "type": "contract ThinkBig"
+                                },
+                                "id": 3914,
+                                "name": "UserDefinedTypeName",
+                                "src": "160:8:25"
+                              }
+                            ],
+                            "id": 3915,
+                            "name": "NewExpression",
+                            "src": "156:12:25"
+                          }
+                        ],
+                        "id": 3916,
+                        "name": "FunctionCall",
+                        "src": "156:14:25"
                       }
+                    ],
+                    "id": 3917,
+                    "name": "VariableDeclarationStatement",
+                    "src": "136:34:25"
+                  },
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 3911
                     },
-                    "nodeType": "BinaryOperation",
-                    "operator": "==",
-                    "rightExpression": {
-                      "argumentTypes": null,
-                      "hexValue": "74727565",
-                      "id": 721,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": true,
-                      "kind": "bool",
-                      "lValueRequested": false,
-                      "nodeType": "Literal",
-                      "src": "356:4:9",
-                      "subdenomination": null,
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_bool",
-                        "typeString": "bool"
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "overloadedDeclarations": [
+                            null
+                          ],
+                          "referencedDeclaration": 3913,
+                          "type": "contract ThinkBig",
+                          "value": "instance"
+                        },
+                        "id": 3918,
+                        "name": "Identifier",
+                        "src": "183:8:25"
+                      }
+                    ],
+                    "id": 3919,
+                    "name": "Return",
+                    "src": "176:15:25"
+                  }
+                ],
+                "id": 3920,
+                "name": "Block",
+                "src": "130:66:25"
+              }
+            ],
+            "id": 3921,
+            "name": "FunctionDefinition",
+            "src": "80:116:25"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "functionSelector": "b3154db0",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "check",
+              "overrides": null,
+              "scope": 3944,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_instance",
+                      "overrides": null,
+                      "scope": 3943,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 3922,
+                        "name": "ElementaryTypeName",
+                        "src": "216:7:25"
+                      }
+                    ],
+                    "id": 3923,
+                    "name": "VariableDeclaration",
+                    "src": "216:17:25"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_player",
+                      "overrides": null,
+                      "scope": 3943,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 3924,
+                        "name": "ElementaryTypeName",
+                        "src": "235:7:25"
+                      }
+                    ],
+                    "id": 3925,
+                    "name": "VariableDeclaration",
+                    "src": "235:15:25"
+                  }
+                ],
+                "id": 3926,
+                "name": "ParameterList",
+                "src": "215:36:25"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "overrides": null,
+                      "scope": 3943,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bool",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bool",
+                          "type": "bool"
+                        },
+                        "id": 3927,
+                        "name": "ElementaryTypeName",
+                        "src": "268:4:25"
+                      }
+                    ],
+                    "id": 3928,
+                    "name": "VariableDeclaration",
+                    "src": "268:4:25"
+                  }
+                ],
+                "id": 3929,
+                "name": "ParameterList",
+                "src": "267:6:25"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        3931
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "instance",
+                          "overrides": null,
+                          "scope": 3942,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "contract ThinkBig",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "ThinkBig",
+                              "referencedDeclaration": 3904,
+                              "type": "contract ThinkBig"
+                            },
+                            "id": 3930,
+                            "name": "UserDefinedTypeName",
+                            "src": "280:8:25"
+                          }
+                        ],
+                        "id": 3931,
+                        "name": "VariableDeclaration",
+                        "src": "280:17:25"
                       },
-                      "value": "true"
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "isStructConstructorCall": false,
+                          "lValueRequested": false,
+                          "names": [
+                            null
+                          ],
+                          "tryCall": false,
+                          "type": "contract ThinkBig",
+                          "type_conversion": true
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              ],
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 3904,
+                              "type": "type(contract ThinkBig)",
+                              "value": "ThinkBig"
+                            },
+                            "id": 3932,
+                            "name": "Identifier",
+                            "src": "300:8:25"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 3923,
+                              "type": "address",
+                              "value": "_instance"
+                            },
+                            "id": 3933,
+                            "name": "Identifier",
+                            "src": "309:9:25"
+                          }
+                        ],
+                        "id": 3934,
+                        "name": "FunctionCall",
+                        "src": "300:19:25"
+                      }
+                    ],
+                    "id": 3935,
+                    "name": "VariableDeclarationStatement",
+                    "src": "280:39:25"
+                  },
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 3929
                     },
-                    "src": "332:28:9",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_bool",
-                      "typeString": "bool"
-                    }
-                  },
-                  "functionReturnParameters": 711,
-                  "id": 723,
-                  "nodeType": "Return",
-                  "src": "325:35:9"
-                }
-              ]
-            },
-            "documentation": null,
-            "functionSelector": "b3154db0",
-            "id": 725,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "check",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 708,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 705,
-                  "name": "_instance",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 725,
-                  "src": "216:17:9",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 704,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "216:7:9",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                },
-                {
-                  "constant": false,
-                  "id": 707,
-                  "name": "_player",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 725,
-                  "src": "235:15:9",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 706,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "235:7:9",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "215:36:9"
-            },
-            "returnParameters": {
-              "id": 711,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 710,
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 725,
-                  "src": "268:4:9",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bool",
-                    "typeString": "bool"
-                  },
-                  "typeName": {
-                    "id": 709,
-                    "name": "bool",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "268:4:9",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_bool",
-                      "typeString": "bool"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "267:6:9"
-            },
-            "scope": 726,
-            "src": "200:165:9",
-            "stateMutability": "nonpayable",
-            "virtual": false,
-            "visibility": "public"
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          },
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "==",
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "arguments": [
+                                null
+                              ],
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "isStructConstructorCall": false,
+                              "lValueRequested": false,
+                              "names": [
+                                null
+                              ],
+                              "tryCall": false,
+                              "type": "bool",
+                              "type_conversion": false
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": [
+                                    null
+                                  ],
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "member_name": "completed",
+                                  "referencedDeclaration": 3875,
+                                  "type": "function () view external returns (bool)"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 3931,
+                                      "type": "contract ThinkBig",
+                                      "value": "instance"
+                                    },
+                                    "id": 3936,
+                                    "name": "Identifier",
+                                    "src": "332:8:25"
+                                  }
+                                ],
+                                "id": 3937,
+                                "name": "MemberAccess",
+                                "src": "332:18:25"
+                              }
+                            ],
+                            "id": 3938,
+                            "name": "FunctionCall",
+                            "src": "332:20:25"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "74727565",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "bool",
+                              "type": "bool",
+                              "value": "true"
+                            },
+                            "id": 3939,
+                            "name": "Literal",
+                            "src": "356:4:25"
+                          }
+                        ],
+                        "id": 3940,
+                        "name": "BinaryOperation",
+                        "src": "332:28:25"
+                      }
+                    ],
+                    "id": 3941,
+                    "name": "Return",
+                    "src": "325:35:25"
+                  }
+                ],
+                "id": 3942,
+                "name": "Block",
+                "src": "274:91:25"
+              }
+            ],
+            "id": 3943,
+            "name": "FunctionDefinition",
+            "src": "200:165:25"
           }
         ],
-        "scope": 727,
-        "src": "49:318:9"
+        "id": 3944,
+        "name": "ContractDefinition",
+        "src": "49:318:25"
       }
     ],
-    "src": "0:368:9"
+    "id": 3945,
+    "name": "SourceUnit",
+    "src": "0:368:25"
   },
   "compiler": {
     "name": "solc",
     "version": "0.6.2+commit.bacdbe57.Emscripten.clang"
   },
   "networks": {
-    "5777": {
+    "1666700000": {
       "events": {},
       "links": {},
-      "address": "0x278F7185426B46f675883e56b9F23Fcce0C9F2C1",
-      "transactionHash": "0x08e273cead0f7e9bff782e60c81e004ea65bf54370a68a84445708877e564f7d"
+      "address": "0x341e64792341b310bd97BA8D9Df5b890812Dbd1B",
+      "transactionHash": "0xacd004fa717f42327ef6c12f8fb33c7c0cb34d53a87c3d0ee8033af84191740b"
     }
   },
-  "schemaVersion": "3.2.2",
-  "updatedAt": "2020-09-28T14:04:27.623Z",
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-28T14:11:53.373Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

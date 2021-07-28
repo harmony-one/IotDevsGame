@@ -39,41 +39,41 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_instance\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_player\",\"type\":\"address\"}],\"name\":\"check\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"newInstance\",\"outputs\":[{\"internalType\":\"contract TheGreatHall\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_2_Deployer.sol\":\"TheGreatHallDeployer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_2.sol\":{\"keccak256\":\"0x2e84e2c19358ca1380d12f8bc994371910d4ec6ae51be4bcadf256f12feb354d\",\"urls\":[\"bzz-raw://d426b0bfc832ffb86d618343b787ea92a15c8775c9cfbbfc5d8ad328ed69db3e\",\"dweb:/ipfs/QmWWoZMz2LsBho5vuXf5BBCo7cEmtuuoQA7hp4ryMECyUn\"]},\"/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_2_Deployer.sol\":{\"keccak256\":\"0x10a3b2d3ef8c3b84f24ccc1227b72f595cef0c79d55346c7e2c4766ff75b885f\",\"urls\":[\"bzz-raw://d2d56d3f72bb5c8d1be74d1767fdd1ea7455f7470ace02cdf3f9767bf5796d3b\",\"dweb:/ipfs/QmYBk93RA7e2QbvrK2Kve3ttGjsUFeoc69k9ASxLVpYRSg\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610ab6806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906102a4565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b600080839050428173ffffffffffffffffffffffffffffffffffffffff16631531f016856040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060206040518083038186803b1580156101ba57600080fd5b505afa1580156101ce573d6000803e3d6000fd5b505050506040513d60208110156101e457600080fd5b8101908080519060200190929190505050101561020557600191505061029e565b8073ffffffffffffffffffffffffffffffffffffffff16636b8ab97d846040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050600060405180830381600087803b15801561028457600080fd5b505af1158015610298573d6000803e3d6000fd5b50505050505b92915050565b6107cf806102b28339019056fe608060405234801561001057600080fd5b506107af806100206000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c80636b8ab97d1161005b5780636b8ab97d146101125780636c8ae38c14610156578063c707def614610160578063ec45787c146101915761007d565b80631531f016146100825780632044ea5a146100da578063534d4ec314610108575b600080fd5b6100c46004803603602081101561009857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101e9565b6040518082815260200191505060405180910390f35b610106600480360360208110156100f057600080fd5b8101908080359060200190929190505050610232565b005b610110610346565b005b6101546004803603602081101561012857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103f3565b005b61015e610568565b005b61018f6004803603602081101561017657600080fd5b81019080803560ff1690602001909291905050506105f5565b005b6101d3600480360360208110156101a757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610717565b6040518082815260200191505060405180910390f35b6000600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff16141561028f57600080fd5b600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205481146102e2576102dd610568565b610343565b6102ea61072f565b6001600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505b50565b67016345785d8a0000600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541161039957600080fd5b60326000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908360ff160217905550565b6000808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600160008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600260008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600460008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009055600560008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000905550565b600060ff428161057457fe5b06905080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055507fb863bd3729546d4186efd003c567348f9deb7087f4632b9046c39adb8008c19f816040518082815260200191505060405180910390a150565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff168160ff161061065257600080fd5b60008160ff166000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff16816106ae57fe5b0660ff16146106bc57600080fd5b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908360ff16021790555050565b60056020528060005260406000206000915090505481565b61012c4201600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555056fea2646970667358221220353798beb1b9fcfae4ba365366a513e1d79a6a9ba24db07446db4f6d4aa1fe3c64736f6c63430006020033a264697066735822122068177bcc7757cadece1e11e07c73469b2fe337bffdc632867ace4382748f9a0964736f6c63430006020033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906102a4565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b600080839050428173ffffffffffffffffffffffffffffffffffffffff16631531f016856040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060206040518083038186803b1580156101ba57600080fd5b505afa1580156101ce573d6000803e3d6000fd5b505050506040513d60208110156101e457600080fd5b8101908080519060200190929190505050101561020557600191505061029e565b8073ffffffffffffffffffffffffffffffffffffffff16636b8ab97d846040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050600060405180830381600087803b15801561028457600080fd5b505af1158015610298573d6000803e3d6000fd5b50505050505b92915050565b6107cf806102b28339019056fe608060405234801561001057600080fd5b506107af806100206000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c80636b8ab97d1161005b5780636b8ab97d146101125780636c8ae38c14610156578063c707def614610160578063ec45787c146101915761007d565b80631531f016146100825780632044ea5a146100da578063534d4ec314610108575b600080fd5b6100c46004803603602081101561009857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101e9565b6040518082815260200191505060405180910390f35b610106600480360360208110156100f057600080fd5b8101908080359060200190929190505050610232565b005b610110610346565b005b6101546004803603602081101561012857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103f3565b005b61015e610568565b005b61018f6004803603602081101561017657600080fd5b81019080803560ff1690602001909291905050506105f5565b005b6101d3600480360360208110156101a757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610717565b6040518082815260200191505060405180910390f35b6000600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff16141561028f57600080fd5b600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205481146102e2576102dd610568565b610343565b6102ea61072f565b6001600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505b50565b67016345785d8a0000600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541161039957600080fd5b60326000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908360ff160217905550565b6000808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600160008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600260008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600460008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009055600560008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000905550565b600060ff428161057457fe5b06905080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055507fb863bd3729546d4186efd003c567348f9deb7087f4632b9046c39adb8008c19f816040518082815260200191505060405180910390a150565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff168160ff161061065257600080fd5b60008160ff166000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff16816106ae57fe5b0660ff16146106bc57600080fd5b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908360ff16021790555050565b60056020528060005260406000206000915090505481565b61012c4201600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555056fea2646970667358221220353798beb1b9fcfae4ba365366a513e1d79a6a9ba24db07446db4f6d4aa1fe3c64736f6c63430006020033a264697066735822122068177bcc7757cadece1e11e07c73469b2fe337bffdc632867ace4382748f9a0964736f6c63430006020033",
-  "sourceMap": "49:412:7:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:412:7;;;;;;;",
-  "deployedSourceMap": "49:412:7:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:412:7;;;;;;;;;;;;;;;;;;;;;;;;84:128;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;216:243;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;216:243:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;84:128;124:12;144:21;168:18;;;;;:::i;:::-;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;168:18:7;144:42;;199:8;192:15;;;84:128;:::o;216:243::-;284:4;296:21;333:9;296:47;;381:3;352:8;:17;;;370:7;352:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;352:26:7;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;352:26:7;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;352:26:7;;;;;;;;;;;;;;;;:32;349:106;;;400:4;393:11;;;;;349:106;425:8;:14;;;440:7;425:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;425:23:7;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;425:23:7;;;;216:243;;;;;;:::o;49:412::-;;;;;;;;:::o",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_instance\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_player\",\"type\":\"address\"}],\"name\":\"check\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"newInstance\",\"outputs\":[{\"internalType\":\"contract TheGreatHall\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Game/Levels/Level_2_Deployer.sol\":\"TheGreatHallDeployer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Game/Levels/Level_2.sol\":{\"keccak256\":\"0x2e84e2c19358ca1380d12f8bc994371910d4ec6ae51be4bcadf256f12feb354d\",\"urls\":[\"bzz-raw://d426b0bfc832ffb86d618343b787ea92a15c8775c9cfbbfc5d8ad328ed69db3e\",\"dweb:/ipfs/QmWWoZMz2LsBho5vuXf5BBCo7cEmtuuoQA7hp4ryMECyUn\"]},\"project:/contracts/Game/Levels/Level_2_Deployer.sol\":{\"keccak256\":\"0x10a3b2d3ef8c3b84f24ccc1227b72f595cef0c79d55346c7e2c4766ff75b885f\",\"urls\":[\"bzz-raw://d2d56d3f72bb5c8d1be74d1767fdd1ea7455f7470ace02cdf3f9767bf5796d3b\",\"dweb:/ipfs/QmYBk93RA7e2QbvrK2Kve3ttGjsUFeoc69k9ASxLVpYRSg\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610ab6806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906102a4565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b600080839050428173ffffffffffffffffffffffffffffffffffffffff16631531f016856040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060206040518083038186803b1580156101ba57600080fd5b505afa1580156101ce573d6000803e3d6000fd5b505050506040513d60208110156101e457600080fd5b8101908080519060200190929190505050101561020557600191505061029e565b8073ffffffffffffffffffffffffffffffffffffffff16636b8ab97d846040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050600060405180830381600087803b15801561028457600080fd5b505af1158015610298573d6000803e3d6000fd5b50505050505b92915050565b6107cf806102b28339019056fe608060405234801561001057600080fd5b506107af806100206000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c80636b8ab97d1161005b5780636b8ab97d146101125780636c8ae38c14610156578063c707def614610160578063ec45787c146101915761007d565b80631531f016146100825780632044ea5a146100da578063534d4ec314610108575b600080fd5b6100c46004803603602081101561009857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101e9565b6040518082815260200191505060405180910390f35b610106600480360360208110156100f057600080fd5b8101908080359060200190929190505050610232565b005b610110610346565b005b6101546004803603602081101561012857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103f3565b005b61015e610568565b005b61018f6004803603602081101561017657600080fd5b81019080803560ff1690602001909291905050506105f5565b005b6101d3600480360360208110156101a757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610717565b6040518082815260200191505060405180910390f35b6000600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff16141561028f57600080fd5b600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205481146102e2576102dd610568565b610343565b6102ea61072f565b6001600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505b50565b67016345785d8a0000600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541161039957600080fd5b60326000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908360ff160217905550565b6000808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600160008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600260008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600460008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009055600560008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000905550565b600060ff428161057457fe5b06905080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055507fb863bd3729546d4186efd003c567348f9deb7087f4632b9046c39adb8008c19f816040518082815260200191505060405180910390a150565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff168160ff161061065257600080fd5b60008160ff166000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff16816106ae57fe5b0660ff16146106bc57600080fd5b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908360ff16021790555050565b60056020528060005260406000206000915090505481565b61012c4201600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555056fea26469706673582212201ab822adf2426fe778ebf9c2e915210563035573d618e1fed85776765d0eccfc64736f6c63430006020033a26469706673582212205b7ad0d60ee0d365f95b59392136e005c88a47f921df5ca88d299b8279db64a364736f6c63430006020033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906102a4565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b600080839050428173ffffffffffffffffffffffffffffffffffffffff16631531f016856040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060206040518083038186803b1580156101ba57600080fd5b505afa1580156101ce573d6000803e3d6000fd5b505050506040513d60208110156101e457600080fd5b8101908080519060200190929190505050101561020557600191505061029e565b8073ffffffffffffffffffffffffffffffffffffffff16636b8ab97d846040518263ffffffff1660e01b8152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050600060405180830381600087803b15801561028457600080fd5b505af1158015610298573d6000803e3d6000fd5b50505050505b92915050565b6107cf806102b28339019056fe608060405234801561001057600080fd5b506107af806100206000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c80636b8ab97d1161005b5780636b8ab97d146101125780636c8ae38c14610156578063c707def614610160578063ec45787c146101915761007d565b80631531f016146100825780632044ea5a146100da578063534d4ec314610108575b600080fd5b6100c46004803603602081101561009857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506101e9565b6040518082815260200191505060405180910390f35b610106600480360360208110156100f057600080fd5b8101908080359060200190929190505050610232565b005b610110610346565b005b6101546004803603602081101561012857600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506103f3565b005b61015e610568565b005b61018f6004803603602081101561017657600080fd5b81019080803560ff1690602001909291905050506105f5565b005b6101d3600480360360208110156101a757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610717565b6040518082815260200191505060405180910390f35b6000600560008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff16141561028f57600080fd5b600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205481146102e2576102dd610568565b610343565b6102ea61072f565b6001600260003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff0219169083151502179055505b50565b67016345785d8a0000600360003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541161039957600080fd5b60326000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908360ff160217905550565b6000808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600160008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600260008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81549060ff0219169055600460008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009055600560008273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000905550565b600060ff428161057457fe5b06905080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055507fb863bd3729546d4186efd003c567348f9deb7087f4632b9046c39adb8008c19f816040518082815260200191505060405180910390a150565b6000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff168160ff161061065257600080fd5b60008160ff166000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1660ff16816106ae57fe5b0660ff16146106bc57600080fd5b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908360ff16021790555050565b60056020528060005260406000206000915090505481565b61012c4201600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555056fea26469706673582212201ab822adf2426fe778ebf9c2e915210563035573d618e1fed85776765d0eccfc64736f6c63430006020033a26469706673582212205b7ad0d60ee0d365f95b59392136e005c88a47f921df5ca88d299b8279db64a364736f6c63430006020033",
+  "sourceMap": "49:412:23:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:412:23;;;;;;;",
+  "deployedSourceMap": "49:412:23:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:412:23;;;;;;;;;;;;;;;;;;;;;;;;84:128;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;216:243;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;216:243:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;84:128;124:12;144:21;168:18;;;;;:::i;:::-;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;168:18:23;144:42;;199:8;192:15;;;84:128;:::o;216:243::-;284:4;296:21;333:9;296:47;;381:3;352:8;:17;;;370:7;352:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;352:26:23;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;352:26:23;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;352:26:23;;;;;;;;;;;;;;;;:32;349:106;;;400:4;393:11;;;;;349:106;425:8;:14;;;440:7;425:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;425:23:23;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;425:23:23;;;;216:243;;;;;;:::o;49:412::-;;;;;;;;:::o",
   "source": "pragma solidity 0.6.2;\n\nimport './Level_2.sol';\n\ncontract TheGreatHallDeployer {\n\n  function newInstance () public returns (TheGreatHall) {\n    TheGreatHall instance = new TheGreatHall();\n    return instance;\n  }\n\n  function check (address _instance, address _player) public returns (bool) {\n    TheGreatHall instance = TheGreatHall(_instance);\n    if(instance.getTimer(_player) < now){\n      return true;\n    } else {\n      instance.reset(_player);\n    }\n  }\n}\n",
-  "sourcePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_2_Deployer.sol",
+  "sourcePath": "/Users/gupadhyaya/go/src/github.com/harmony-one/IotDevsGame/contracts/Game/Levels/Level_2_Deployer.sol",
   "ast": {
-    "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_2_Deployer.sol",
+    "absolutePath": "project:/contracts/Game/Levels/Level_2_Deployer.sol",
     "exportedSymbols": {
       "TheGreatHallDeployer": [
-        653
+        3871
       ]
     },
-    "id": 654,
+    "id": 3872,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 604,
+        "id": 3822,
         "literals": [
           "solidity",
           "0.6",
           ".2"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:22:7"
+        "src": "0:22:23"
       },
       {
-        "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_2.sol",
+        "absolutePath": "project:/contracts/Game/Levels/Level_2.sol",
         "file": "./Level_2.sol",
-        "id": 605,
+        "id": 3823,
         "nodeType": "ImportDirective",
-        "scope": 654,
-        "sourceUnit": 603,
-        "src": "24:23:7",
+        "scope": 3872,
+        "sourceUnit": 3821,
+        "src": "24:23:23",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -81,52 +81,52 @@
         "abstract": false,
         "baseContracts": [],
         "contractDependencies": [
-          602
+          3820
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 653,
+        "id": 3871,
         "linearizedBaseContracts": [
-          653
+          3871
         ],
         "name": "TheGreatHallDeployer",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 618,
+              "id": 3836,
               "nodeType": "Block",
-              "src": "138:74:7",
+              "src": "138:74:23",
               "statements": [
                 {
                   "assignments": [
-                    611
+                    3829
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 611,
+                      "id": 3829,
                       "name": "instance",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-                      "scope": 618,
-                      "src": "144:21:7",
+                      "scope": 3836,
+                      "src": "144:21:23",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                        "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                         "typeString": "contract TheGreatHall"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 610,
+                        "id": 3828,
                         "name": "TheGreatHall",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 602,
-                        "src": "144:12:7",
+                        "referencedDeclaration": 3820,
+                        "src": "144:12:23",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                          "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                           "typeString": "contract TheGreatHall"
                         }
                       },
@@ -134,37 +134,37 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 615,
+                  "id": 3833,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 613,
+                      "id": 3831,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "NewExpression",
-                      "src": "168:16:7",
+                      "src": "168:16:23",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_TheGreatHall_$602_$",
+                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_TheGreatHall_$3820_$",
                         "typeString": "function () returns (contract TheGreatHall)"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 612,
+                        "id": 3830,
                         "name": "TheGreatHall",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 602,
-                        "src": "172:12:7",
+                        "referencedDeclaration": 3820,
+                        "src": "172:12:23",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                          "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                           "typeString": "contract TheGreatHall"
                         }
                       }
                     },
-                    "id": 614,
+                    "id": 3832,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -172,40 +172,40 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "168:18:7",
+                    "src": "168:18:23",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                      "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                       "typeString": "contract TheGreatHall"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "144:42:7"
+                  "src": "144:42:23"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 616,
+                    "id": 3834,
                     "name": "instance",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 611,
-                    "src": "199:8:7",
+                    "referencedDeclaration": 3829,
+                    "src": "199:8:23",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                      "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                       "typeString": "contract TheGreatHall"
                     }
                   },
-                  "functionReturnParameters": 609,
-                  "id": 617,
+                  "functionReturnParameters": 3827,
+                  "id": 3835,
                   "nodeType": "Return",
-                  "src": "192:15:7"
+                  "src": "192:15:23"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "5219cfa5",
-            "id": 619,
+            "id": 3837,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -213,38 +213,38 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 606,
+              "id": 3824,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "105:2:7"
+              "src": "105:2:23"
             },
             "returnParameters": {
-              "id": 609,
+              "id": 3827,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 608,
+                  "id": 3826,
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 619,
-                  "src": "124:12:7",
+                  "scope": 3837,
+                  "src": "124:12:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                    "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                     "typeString": "contract TheGreatHall"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 607,
+                    "id": 3825,
                     "name": "TheGreatHall",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 602,
-                    "src": "124:12:7",
+                    "referencedDeclaration": 3820,
+                    "src": "124:12:23",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                      "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                       "typeString": "contract TheGreatHall"
                     }
                   },
@@ -252,48 +252,48 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "123:14:7"
+              "src": "123:14:23"
             },
-            "scope": 653,
-            "src": "84:128:7",
+            "scope": 3871,
+            "src": "84:128:23",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 651,
+              "id": 3869,
               "nodeType": "Block",
-              "src": "290:169:7",
+              "src": "290:169:23",
               "statements": [
                 {
                   "assignments": [
-                    629
+                    3847
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 629,
+                      "id": 3847,
                       "name": "instance",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-                      "scope": 651,
-                      "src": "296:21:7",
+                      "scope": 3869,
+                      "src": "296:21:23",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                        "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                         "typeString": "contract TheGreatHall"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 628,
+                        "id": 3846,
                         "name": "TheGreatHall",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 602,
-                        "src": "296:12:7",
+                        "referencedDeclaration": 3820,
+                        "src": "296:12:23",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                          "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                           "typeString": "contract TheGreatHall"
                         }
                       },
@@ -301,18 +301,18 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 633,
+                  "id": 3851,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 631,
+                        "id": 3849,
                         "name": "_instance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 621,
-                        "src": "333:9:7",
+                        "referencedDeclaration": 3839,
+                        "src": "333:9:23",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -326,18 +326,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 630,
+                      "id": 3848,
                       "name": "TheGreatHall",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 602,
-                      "src": "320:12:7",
+                      "referencedDeclaration": 3820,
+                      "src": "320:12:23",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_TheGreatHall_$602_$",
+                        "typeIdentifier": "t_type$_t_contract$_TheGreatHall_$3820_$",
                         "typeString": "type(contract TheGreatHall)"
                       }
                     },
-                    "id": 632,
+                    "id": 3850,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -345,15 +345,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "320:23:7",
+                    "src": "320:23:23",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                      "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                       "typeString": "contract TheGreatHall"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "296:47:7"
+                  "src": "296:47:23"
                 },
                 {
                   "condition": {
@@ -362,7 +362,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 639,
+                    "id": 3857,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -372,12 +372,12 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 636,
+                          "id": 3854,
                           "name": "_player",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 623,
-                          "src": "370:7:7",
+                          "referencedDeclaration": 3841,
+                          "src": "370:7:23",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -393,32 +393,32 @@
                         ],
                         "expression": {
                           "argumentTypes": null,
-                          "id": 634,
+                          "id": 3852,
                           "name": "instance",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 629,
-                          "src": "352:8:7",
+                          "referencedDeclaration": 3847,
+                          "src": "352:8:23",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                            "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                             "typeString": "contract TheGreatHall"
                           }
                         },
-                        "id": 635,
+                        "id": 3853,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "getTimer",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 601,
-                        "src": "352:17:7",
+                        "referencedDeclaration": 3819,
+                        "src": "352:17:23",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
                           "typeString": "function (address) view external returns (uint256)"
                         }
                       },
-                      "id": 637,
+                      "id": 3855,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -426,7 +426,7 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "352:26:7",
+                      "src": "352:26:23",
                       "tryCall": false,
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -437,27 +437,27 @@
                     "operator": "<",
                     "rightExpression": {
                       "argumentTypes": null,
-                      "id": 638,
+                      "id": 3856,
                       "name": "now",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": -17,
-                      "src": "381:3:7",
+                      "src": "381:3:23",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "352:32:7",
+                    "src": "352:32:23",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
                   "falseBody": {
-                    "id": 649,
+                    "id": 3867,
                     "nodeType": "Block",
-                    "src": "417:38:7",
+                    "src": "417:38:23",
                     "statements": [
                       {
                         "expression": {
@@ -465,12 +465,12 @@
                           "arguments": [
                             {
                               "argumentTypes": null,
-                              "id": 646,
+                              "id": 3864,
                               "name": "_player",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 623,
-                              "src": "440:7:7",
+                              "referencedDeclaration": 3841,
+                              "src": "440:7:23",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
                                 "typeString": "address"
@@ -486,32 +486,32 @@
                             ],
                             "expression": {
                               "argumentTypes": null,
-                              "id": 643,
+                              "id": 3861,
                               "name": "instance",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 629,
-                              "src": "425:8:7",
+                              "referencedDeclaration": 3847,
+                              "src": "425:8:23",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_TheGreatHall_$602",
+                                "typeIdentifier": "t_contract$_TheGreatHall_$3820",
                                 "typeString": "contract TheGreatHall"
                               }
                             },
-                            "id": 645,
+                            "id": 3863,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "memberName": "reset",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 589,
-                            "src": "425:14:7",
+                            "referencedDeclaration": 3807,
+                            "src": "425:14:23",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
                               "typeString": "function (address) external"
                             }
                           },
-                          "id": 647,
+                          "id": 3865,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -519,39 +519,39 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "425:23:7",
+                          "src": "425:23:23",
                           "tryCall": false,
                           "typeDescriptions": {
                             "typeIdentifier": "t_tuple$__$",
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 648,
+                        "id": 3866,
                         "nodeType": "ExpressionStatement",
-                        "src": "425:23:7"
+                        "src": "425:23:23"
                       }
                     ]
                   },
-                  "id": 650,
+                  "id": 3868,
                   "nodeType": "IfStatement",
-                  "src": "349:106:7",
+                  "src": "349:106:23",
                   "trueBody": {
-                    "id": 642,
+                    "id": 3860,
                     "nodeType": "Block",
-                    "src": "385:26:7",
+                    "src": "385:26:23",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 640,
+                          "id": 3858,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "400:4:7",
+                          "src": "400:4:23",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -559,10 +559,10 @@
                           },
                           "value": "true"
                         },
-                        "functionReturnParameters": 627,
-                        "id": 641,
+                        "functionReturnParameters": 3845,
+                        "id": 3859,
                         "nodeType": "Return",
-                        "src": "393:11:7"
+                        "src": "393:11:23"
                       }
                     ]
                   }
@@ -571,7 +571,7 @@
             },
             "documentation": null,
             "functionSelector": "b3154db0",
-            "id": 652,
+            "id": 3870,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -579,17 +579,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 624,
+              "id": 3842,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 621,
+                  "id": 3839,
                   "name": "_instance",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 652,
-                  "src": "232:17:7",
+                  "scope": 3870,
+                  "src": "232:17:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -597,10 +597,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 620,
+                    "id": 3838,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "232:7:7",
+                    "src": "232:7:23",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -612,12 +612,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 623,
+                  "id": 3841,
                   "name": "_player",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 652,
-                  "src": "251:15:7",
+                  "scope": 3870,
+                  "src": "251:15:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -625,10 +625,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 622,
+                    "id": 3840,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "251:7:7",
+                    "src": "251:7:23",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -639,20 +639,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "231:36:7"
+              "src": "231:36:23"
             },
             "returnParameters": {
-              "id": 627,
+              "id": 3845,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 626,
+                  "id": 3844,
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 652,
-                  "src": "284:4:7",
+                  "scope": 3870,
+                  "src": "284:4:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -660,10 +660,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 625,
+                    "id": 3843,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "284:4:7",
+                    "src": "284:4:23",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -673,677 +673,748 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "283:6:7"
+              "src": "283:6:23"
             },
-            "scope": 653,
-            "src": "216:243:7",
+            "scope": 3871,
+            "src": "216:243:23",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 654,
-        "src": "49:412:7"
+        "scope": 3872,
+        "src": "49:412:23"
       }
     ],
-    "src": "0:462:7"
+    "src": "0:462:23"
   },
   "legacyAST": {
-    "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_2_Deployer.sol",
-    "exportedSymbols": {
-      "TheGreatHallDeployer": [
-        653
-      ]
+    "attributes": {
+      "absolutePath": "project:/contracts/Game/Levels/Level_2_Deployer.sol",
+      "exportedSymbols": {
+        "TheGreatHallDeployer": [
+          3871
+        ]
+      }
     },
-    "id": 654,
-    "nodeType": "SourceUnit",
-    "nodes": [
+    "children": [
       {
-        "id": 604,
-        "literals": [
-          "solidity",
-          "0.6",
-          ".2"
-        ],
-        "nodeType": "PragmaDirective",
-        "src": "0:22:7"
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.6",
+            ".2"
+          ]
+        },
+        "id": 3822,
+        "name": "PragmaDirective",
+        "src": "0:22:23"
       },
       {
-        "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/Level_2.sol",
-        "file": "./Level_2.sol",
-        "id": 605,
-        "nodeType": "ImportDirective",
-        "scope": 654,
-        "sourceUnit": 603,
-        "src": "24:23:7",
-        "symbolAliases": [],
-        "unitAlias": ""
+        "attributes": {
+          "SourceUnit": 3821,
+          "absolutePath": "project:/contracts/Game/Levels/Level_2.sol",
+          "file": "./Level_2.sol",
+          "scope": 3872,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 3823,
+        "name": "ImportDirective",
+        "src": "24:23:23"
       },
       {
-        "abstract": false,
-        "baseContracts": [],
-        "contractDependencies": [
-          602
-        ],
-        "contractKind": "contract",
-        "documentation": null,
-        "fullyImplemented": true,
-        "id": 653,
-        "linearizedBaseContracts": [
-          653
-        ],
-        "name": "TheGreatHallDeployer",
-        "nodeType": "ContractDefinition",
-        "nodes": [
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            3820
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            3871
+          ],
+          "name": "TheGreatHallDeployer",
+          "scope": 3872
+        },
+        "children": [
           {
-            "body": {
-              "id": 618,
-              "nodeType": "Block",
-              "src": "138:74:7",
-              "statements": [
-                {
-                  "assignments": [
-                    611
-                  ],
-                  "declarations": [
-                    {
-                      "constant": false,
-                      "id": 611,
-                      "name": "instance",
-                      "nodeType": "VariableDeclaration",
-                      "overrides": null,
-                      "scope": 618,
-                      "src": "144:21:7",
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                        "typeString": "contract TheGreatHall"
-                      },
-                      "typeName": {
-                        "contractScope": null,
-                        "id": 610,
-                        "name": "TheGreatHall",
-                        "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 602,
-                        "src": "144:12:7",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                          "typeString": "contract TheGreatHall"
-                        }
-                      },
-                      "value": null,
-                      "visibility": "internal"
-                    }
-                  ],
-                  "id": 615,
-                  "initialValue": {
-                    "argumentTypes": null,
-                    "arguments": [],
-                    "expression": {
-                      "argumentTypes": [],
-                      "id": 613,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "lValueRequested": false,
-                      "nodeType": "NewExpression",
-                      "src": "168:16:7",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_TheGreatHall_$602_$",
-                        "typeString": "function () returns (contract TheGreatHall)"
-                      },
-                      "typeName": {
-                        "contractScope": null,
-                        "id": 612,
-                        "name": "TheGreatHall",
-                        "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 602,
-                        "src": "172:12:7",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                          "typeString": "contract TheGreatHall"
-                        }
-                      }
-                    },
-                    "id": 614,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "kind": "functionCall",
-                    "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "168:18:7",
-                    "tryCall": false,
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                      "typeString": "contract TheGreatHall"
-                    }
-                  },
-                  "nodeType": "VariableDeclarationStatement",
-                  "src": "144:42:7"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 616,
-                    "name": "instance",
-                    "nodeType": "Identifier",
-                    "overloadedDeclarations": [],
-                    "referencedDeclaration": 611,
-                    "src": "199:8:7",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                      "typeString": "contract TheGreatHall"
-                    }
-                  },
-                  "functionReturnParameters": 609,
-                  "id": 617,
-                  "nodeType": "Return",
-                  "src": "192:15:7"
-                }
-              ]
-            },
-            "documentation": null,
-            "functionSelector": "5219cfa5",
-            "id": 619,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "newInstance",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 606,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "105:2:7"
-            },
-            "returnParameters": {
-              "id": 609,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 608,
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 619,
-                  "src": "124:12:7",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                    "typeString": "contract TheGreatHall"
-                  },
-                  "typeName": {
-                    "contractScope": null,
-                    "id": 607,
-                    "name": "TheGreatHall",
-                    "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 602,
-                    "src": "124:12:7",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                      "typeString": "contract TheGreatHall"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
+            "attributes": {
+              "documentation": null,
+              "functionSelector": "5219cfa5",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
               ],
-              "src": "123:14:7"
+              "name": "newInstance",
+              "overrides": null,
+              "scope": 3871,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
             },
-            "scope": 653,
-            "src": "84:128:7",
-            "stateMutability": "nonpayable",
-            "virtual": false,
-            "visibility": "public"
-          },
-          {
-            "body": {
-              "id": 651,
-              "nodeType": "Block",
-              "src": "290:169:7",
-              "statements": [
-                {
-                  "assignments": [
-                    629
-                  ],
-                  "declarations": [
-                    {
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3824,
+                "name": "ParameterList",
+                "src": "105:2:23"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
                       "constant": false,
-                      "id": 629,
-                      "name": "instance",
-                      "nodeType": "VariableDeclaration",
+                      "name": "",
                       "overrides": null,
-                      "scope": 651,
-                      "src": "296:21:7",
+                      "scope": 3837,
                       "stateVariable": false,
                       "storageLocation": "default",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                        "typeString": "contract TheGreatHall"
-                      },
-                      "typeName": {
-                        "contractScope": null,
-                        "id": 628,
-                        "name": "TheGreatHall",
-                        "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 602,
-                        "src": "296:12:7",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                          "typeString": "contract TheGreatHall"
-                        }
-                      },
+                      "type": "contract TheGreatHall",
                       "value": null,
                       "visibility": "internal"
-                    }
-                  ],
-                  "id": 633,
-                  "initialValue": {
-                    "argumentTypes": null,
-                    "arguments": [
+                    },
+                    "children": [
                       {
-                        "argumentTypes": null,
-                        "id": 631,
-                        "name": "_instance",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 621,
-                        "src": "333:9:7",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_address",
-                          "typeString": "address"
-                        }
+                        "attributes": {
+                          "contractScope": null,
+                          "name": "TheGreatHall",
+                          "referencedDeclaration": 3820,
+                          "type": "contract TheGreatHall"
+                        },
+                        "id": 3825,
+                        "name": "UserDefinedTypeName",
+                        "src": "124:12:23"
                       }
                     ],
-                    "expression": {
-                      "argumentTypes": [
-                        {
-                          "typeIdentifier": "t_address",
-                          "typeString": "address"
-                        }
-                      ],
-                      "id": 630,
-                      "name": "TheGreatHall",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 602,
-                      "src": "320:12:7",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_TheGreatHall_$602_$",
-                        "typeString": "type(contract TheGreatHall)"
-                      }
+                    "id": 3826,
+                    "name": "VariableDeclaration",
+                    "src": "124:12:23"
+                  }
+                ],
+                "id": 3827,
+                "name": "ParameterList",
+                "src": "123:14:23"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        3829
+                      ]
                     },
-                    "id": 632,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "kind": "typeConversion",
-                    "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "320:23:7",
-                    "tryCall": false,
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                      "typeString": "contract TheGreatHall"
-                    }
-                  },
-                  "nodeType": "VariableDeclarationStatement",
-                  "src": "296:47:7"
-                },
-                {
-                  "condition": {
-                    "argumentTypes": null,
-                    "commonType": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    },
-                    "id": 639,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftExpression": {
-                      "argumentTypes": null,
-                      "arguments": [
-                        {
-                          "argumentTypes": null,
-                          "id": 636,
-                          "name": "_player",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 623,
-                          "src": "370:7:7",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_address",
-                            "typeString": "address"
-                          }
-                        }
-                      ],
-                      "expression": {
-                        "argumentTypes": [
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "instance",
+                          "overrides": null,
+                          "scope": 3836,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "contract TheGreatHall",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
                           {
-                            "typeIdentifier": "t_address",
-                            "typeString": "address"
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "TheGreatHall",
+                              "referencedDeclaration": 3820,
+                              "type": "contract TheGreatHall"
+                            },
+                            "id": 3828,
+                            "name": "UserDefinedTypeName",
+                            "src": "144:12:23"
                           }
                         ],
-                        "expression": {
-                          "argumentTypes": null,
-                          "id": 634,
-                          "name": "instance",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 629,
-                          "src": "352:8:7",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                            "typeString": "contract TheGreatHall"
-                          }
-                        },
-                        "id": 635,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "memberName": "getTimer",
-                        "nodeType": "MemberAccess",
-                        "referencedDeclaration": 601,
-                        "src": "352:17:7",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
-                          "typeString": "function (address) view external returns (uint256)"
-                        }
+                        "id": 3829,
+                        "name": "VariableDeclaration",
+                        "src": "144:21:23"
                       },
-                      "id": 637,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "kind": "functionCall",
-                      "lValueRequested": false,
-                      "names": [],
-                      "nodeType": "FunctionCall",
-                      "src": "352:26:7",
-                      "tryCall": false,
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "nodeType": "BinaryOperation",
-                    "operator": "<",
-                    "rightExpression": {
-                      "argumentTypes": null,
-                      "id": 638,
-                      "name": "now",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": -17,
-                      "src": "381:3:7",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_uint256",
-                        "typeString": "uint256"
-                      }
-                    },
-                    "src": "352:32:7",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_bool",
-                      "typeString": "bool"
-                    }
-                  },
-                  "falseBody": {
-                    "id": 649,
-                    "nodeType": "Block",
-                    "src": "417:38:7",
-                    "statements": [
                       {
-                        "expression": {
+                        "attributes": {
                           "argumentTypes": null,
                           "arguments": [
-                            {
-                              "argumentTypes": null,
-                              "id": 646,
-                              "name": "_player",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 623,
-                              "src": "440:7:7",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_address",
-                                "typeString": "address"
-                              }
-                            }
+                            null
                           ],
-                          "expression": {
-                            "argumentTypes": [
-                              {
-                                "typeIdentifier": "t_address",
-                                "typeString": "address"
-                              }
-                            ],
-                            "expression": {
-                              "argumentTypes": null,
-                              "id": 643,
-                              "name": "instance",
-                              "nodeType": "Identifier",
-                              "overloadedDeclarations": [],
-                              "referencedDeclaration": 629,
-                              "src": "425:8:7",
-                              "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_TheGreatHall_$602",
-                                "typeString": "contract TheGreatHall"
-                              }
-                            },
-                            "id": 645,
-                            "isConstant": false,
-                            "isLValue": false,
-                            "isPure": false,
-                            "lValueRequested": false,
-                            "memberName": "reset",
-                            "nodeType": "MemberAccess",
-                            "referencedDeclaration": 589,
-                            "src": "425:14:7",
-                            "typeDescriptions": {
-                              "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
-                              "typeString": "function (address) external"
-                            }
-                          },
-                          "id": 647,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
-                          "kind": "functionCall",
+                          "isStructConstructorCall": false,
                           "lValueRequested": false,
-                          "names": [],
-                          "nodeType": "FunctionCall",
-                          "src": "425:23:7",
+                          "names": [
+                            null
+                          ],
                           "tryCall": false,
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_tuple$__$",
-                            "typeString": "tuple()"
-                          }
+                          "type": "contract TheGreatHall",
+                          "type_conversion": false
                         },
-                        "id": 648,
-                        "nodeType": "ExpressionStatement",
-                        "src": "425:23:7"
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                null
+                              ],
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "function () returns (contract TheGreatHall)"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "contractScope": null,
+                                  "name": "TheGreatHall",
+                                  "referencedDeclaration": 3820,
+                                  "type": "contract TheGreatHall"
+                                },
+                                "id": 3830,
+                                "name": "UserDefinedTypeName",
+                                "src": "172:12:23"
+                              }
+                            ],
+                            "id": 3831,
+                            "name": "NewExpression",
+                            "src": "168:16:23"
+                          }
+                        ],
+                        "id": 3832,
+                        "name": "FunctionCall",
+                        "src": "168:18:23"
                       }
-                    ]
+                    ],
+                    "id": 3833,
+                    "name": "VariableDeclarationStatement",
+                    "src": "144:42:23"
                   },
-                  "id": 650,
-                  "nodeType": "IfStatement",
-                  "src": "349:106:7",
-                  "trueBody": {
-                    "id": 642,
-                    "nodeType": "Block",
-                    "src": "385:26:7",
-                    "statements": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 3827
+                    },
+                    "children": [
                       {
-                        "expression": {
+                        "attributes": {
                           "argumentTypes": null,
-                          "hexValue": "74727565",
-                          "id": 640,
+                          "overloadedDeclarations": [
+                            null
+                          ],
+                          "referencedDeclaration": 3829,
+                          "type": "contract TheGreatHall",
+                          "value": "instance"
+                        },
+                        "id": 3834,
+                        "name": "Identifier",
+                        "src": "199:8:23"
+                      }
+                    ],
+                    "id": 3835,
+                    "name": "Return",
+                    "src": "192:15:23"
+                  }
+                ],
+                "id": 3836,
+                "name": "Block",
+                "src": "138:74:23"
+              }
+            ],
+            "id": 3837,
+            "name": "FunctionDefinition",
+            "src": "84:128:23"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "functionSelector": "b3154db0",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "check",
+              "overrides": null,
+              "scope": 3871,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_instance",
+                      "overrides": null,
+                      "scope": 3870,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 3838,
+                        "name": "ElementaryTypeName",
+                        "src": "232:7:23"
+                      }
+                    ],
+                    "id": 3839,
+                    "name": "VariableDeclaration",
+                    "src": "232:17:23"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_player",
+                      "overrides": null,
+                      "scope": 3870,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 3840,
+                        "name": "ElementaryTypeName",
+                        "src": "251:7:23"
+                      }
+                    ],
+                    "id": 3841,
+                    "name": "VariableDeclaration",
+                    "src": "251:15:23"
+                  }
+                ],
+                "id": 3842,
+                "name": "ParameterList",
+                "src": "231:36:23"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "overrides": null,
+                      "scope": 3870,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bool",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bool",
+                          "type": "bool"
+                        },
+                        "id": 3843,
+                        "name": "ElementaryTypeName",
+                        "src": "284:4:23"
+                      }
+                    ],
+                    "id": 3844,
+                    "name": "VariableDeclaration",
+                    "src": "284:4:23"
+                  }
+                ],
+                "id": 3845,
+                "name": "ParameterList",
+                "src": "283:6:23"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        3847
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "instance",
+                          "overrides": null,
+                          "scope": 3869,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "contract TheGreatHall",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "TheGreatHall",
+                              "referencedDeclaration": 3820,
+                              "type": "contract TheGreatHall"
+                            },
+                            "id": 3846,
+                            "name": "UserDefinedTypeName",
+                            "src": "296:12:23"
+                          }
+                        ],
+                        "id": 3847,
+                        "name": "VariableDeclaration",
+                        "src": "296:21:23"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
                           "isConstant": false,
                           "isLValue": false,
-                          "isPure": true,
-                          "kind": "bool",
+                          "isPure": false,
+                          "isStructConstructorCall": false,
                           "lValueRequested": false,
-                          "nodeType": "Literal",
-                          "src": "400:4:7",
-                          "subdenomination": null,
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_bool",
-                            "typeString": "bool"
-                          },
-                          "value": "true"
+                          "names": [
+                            null
+                          ],
+                          "tryCall": false,
+                          "type": "contract TheGreatHall",
+                          "type_conversion": true
                         },
-                        "functionReturnParameters": 627,
-                        "id": 641,
-                        "nodeType": "Return",
-                        "src": "393:11:7"
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              ],
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 3820,
+                              "type": "type(contract TheGreatHall)",
+                              "value": "TheGreatHall"
+                            },
+                            "id": 3848,
+                            "name": "Identifier",
+                            "src": "320:12:23"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 3839,
+                              "type": "address",
+                              "value": "_instance"
+                            },
+                            "id": 3849,
+                            "name": "Identifier",
+                            "src": "333:9:23"
+                          }
+                        ],
+                        "id": 3850,
+                        "name": "FunctionCall",
+                        "src": "320:23:23"
                       }
-                    ]
+                    ],
+                    "id": 3851,
+                    "name": "VariableDeclarationStatement",
+                    "src": "296:47:23"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          },
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "<",
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "isStructConstructorCall": false,
+                              "lValueRequested": false,
+                              "names": [
+                                null
+                              ],
+                              "tryCall": false,
+                              "type": "uint256",
+                              "type_conversion": false
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_address",
+                                      "typeString": "address"
+                                    }
+                                  ],
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "member_name": "getTimer",
+                                  "referencedDeclaration": 3819,
+                                  "type": "function (address) view external returns (uint256)"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 3847,
+                                      "type": "contract TheGreatHall",
+                                      "value": "instance"
+                                    },
+                                    "id": 3852,
+                                    "name": "Identifier",
+                                    "src": "352:8:23"
+                                  }
+                                ],
+                                "id": 3853,
+                                "name": "MemberAccess",
+                                "src": "352:17:23"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 3841,
+                                  "type": "address",
+                                  "value": "_player"
+                                },
+                                "id": 3854,
+                                "name": "Identifier",
+                                "src": "370:7:23"
+                              }
+                            ],
+                            "id": 3855,
+                            "name": "FunctionCall",
+                            "src": "352:26:23"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": -17,
+                              "type": "uint256",
+                              "value": "now"
+                            },
+                            "id": 3856,
+                            "name": "Identifier",
+                            "src": "381:3:23"
+                          }
+                        ],
+                        "id": 3857,
+                        "name": "BinaryOperation",
+                        "src": "352:32:23"
+                      },
+                      {
+                        "children": [
+                          {
+                            "attributes": {
+                              "functionReturnParameters": 3845
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "hexvalue": "74727565",
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "lValueRequested": false,
+                                  "subdenomination": null,
+                                  "token": "bool",
+                                  "type": "bool",
+                                  "value": "true"
+                                },
+                                "id": 3858,
+                                "name": "Literal",
+                                "src": "400:4:23"
+                              }
+                            ],
+                            "id": 3859,
+                            "name": "Return",
+                            "src": "393:11:23"
+                          }
+                        ],
+                        "id": 3860,
+                        "name": "Block",
+                        "src": "385:26:23"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "isStructConstructorCall": false,
+                                  "lValueRequested": false,
+                                  "names": [
+                                    null
+                                  ],
+                                  "tryCall": false,
+                                  "type": "tuple()",
+                                  "type_conversion": false
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": [
+                                        {
+                                          "typeIdentifier": "t_address",
+                                          "typeString": "address"
+                                        }
+                                      ],
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "reset",
+                                      "referencedDeclaration": 3807,
+                                      "type": "function (address) external"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 3847,
+                                          "type": "contract TheGreatHall",
+                                          "value": "instance"
+                                        },
+                                        "id": 3861,
+                                        "name": "Identifier",
+                                        "src": "425:8:23"
+                                      }
+                                    ],
+                                    "id": 3863,
+                                    "name": "MemberAccess",
+                                    "src": "425:14:23"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 3841,
+                                      "type": "address",
+                                      "value": "_player"
+                                    },
+                                    "id": 3864,
+                                    "name": "Identifier",
+                                    "src": "440:7:23"
+                                  }
+                                ],
+                                "id": 3865,
+                                "name": "FunctionCall",
+                                "src": "425:23:23"
+                              }
+                            ],
+                            "id": 3866,
+                            "name": "ExpressionStatement",
+                            "src": "425:23:23"
+                          }
+                        ],
+                        "id": 3867,
+                        "name": "Block",
+                        "src": "417:38:23"
+                      }
+                    ],
+                    "id": 3868,
+                    "name": "IfStatement",
+                    "src": "349:106:23"
                   }
-                }
-              ]
-            },
-            "documentation": null,
-            "functionSelector": "b3154db0",
-            "id": 652,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "check",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 624,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 621,
-                  "name": "_instance",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 652,
-                  "src": "232:17:7",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 620,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "232:7:7",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                },
-                {
-                  "constant": false,
-                  "id": 623,
-                  "name": "_player",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 652,
-                  "src": "251:15:7",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 622,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "251:7:7",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "231:36:7"
-            },
-            "returnParameters": {
-              "id": 627,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 626,
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 652,
-                  "src": "284:4:7",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bool",
-                    "typeString": "bool"
-                  },
-                  "typeName": {
-                    "id": 625,
-                    "name": "bool",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "284:4:7",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_bool",
-                      "typeString": "bool"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "283:6:7"
-            },
-            "scope": 653,
-            "src": "216:243:7",
-            "stateMutability": "nonpayable",
-            "virtual": false,
-            "visibility": "public"
+                ],
+                "id": 3869,
+                "name": "Block",
+                "src": "290:169:23"
+              }
+            ],
+            "id": 3870,
+            "name": "FunctionDefinition",
+            "src": "216:243:23"
           }
         ],
-        "scope": 654,
-        "src": "49:412:7"
+        "id": 3871,
+        "name": "ContractDefinition",
+        "src": "49:412:23"
       }
     ],
-    "src": "0:462:7"
+    "id": 3872,
+    "name": "SourceUnit",
+    "src": "0:462:23"
   },
   "compiler": {
     "name": "solc",
     "version": "0.6.2+commit.bacdbe57.Emscripten.clang"
   },
   "networks": {
-    "5777": {
+    "1666700000": {
       "events": {},
       "links": {},
-      "address": "0x75d65E7012748865e27E80B227AF3Fa578d23db0",
-      "transactionHash": "0x615819ed19069de5066f95bf88643861f87f8781f09b40161ad19a497674bfc1"
+      "address": "0x186c5452726EaA3BEFbA9b49Cf02232F28C957Ce",
+      "transactionHash": "0x58bccd7de07f3e8545187658df57011dfab38b0316ab14456bab66b648cf8254"
     }
   },
-  "schemaVersion": "3.2.2",
-  "updatedAt": "2020-09-28T14:04:27.621Z",
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-28T14:11:53.371Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

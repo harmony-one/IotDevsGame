@@ -39,41 +39,41 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_instance\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_player\",\"type\":\"address\"}],\"name\":\"check\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"newInstance\",\"outputs\":[{\"internalType\":\"contract Welcome\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/0_Welcome_Deployer.sol\":\"WelcomeDeployer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/0_Welcome.sol\":{\"keccak256\":\"0xf8f2ce94078b39a73c5cc70593ec4424e5ea588247d7d4601fb6ab07ccae7eb1\",\"urls\":[\"bzz-raw://1ad9435fca9774fe9ea82a159037a8a96e3c0aa62a8e57390950284ff183e3b5\",\"dweb:/ipfs/QmaCtmyHa8ysTwc7ja5hFKPT6PfhsjP4HNonht1kETmvUR\"]},\"/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/0_Welcome_Deployer.sol\":{\"keccak256\":\"0xe5babe7814a74eac13f3948bc7e6d8d4ef02a67e23208dc70d101224a0c66e71\",\"urls\":[\"bzz-raw://e171c48f20034ee6aefe72e7ccaf893af1496b61fa6aced71c0e723eb640ba04\",\"dweb:/ipfs/QmQY1EFeeyEvH9T8cMA7JvtomMyv8Xz9o3m2z8n4nrSjr9\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50610506806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906101f4565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b6000808390508273ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16638da5cb5b6040518163ffffffff1660e01b815260040160206040518083038186803b15801561019957600080fd5b505afa1580156101ad573d6000803e3d6000fd5b505050506040513d60208110156101c357600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff161491505092915050565b6102cf806102028339019056fe608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061026f806100606000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80633e1af783146100515780638da5cb5b1461007f578063aea89bf4146100c9578063cc8e2394146100d3575b600080fd5b61007d6004803603602081101561006757600080fd5b81019080803590602001909291905050506100f1565b005b61008761017f565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100d16101a4565b005b6100db6101f2565b6040518082815260200191505060405180910390f35b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541461013c57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000424201905080600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509056fea26469706673582212202b62f963e3af91d4e43ed0c991502f2cb24e6bad373076860aa8b3ab378a14df64736f6c63430006020033a264697066735822122056963288777e1d328c65f93752b4c0441a2c4364e6b67fdff61b6f797c2b175d64736f6c63430006020033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906101f4565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b6000808390508273ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16638da5cb5b6040518163ffffffff1660e01b815260040160206040518083038186803b15801561019957600080fd5b505afa1580156101ad573d6000803e3d6000fd5b505050506040513d60208110156101c357600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff161491505092915050565b6102cf806102028339019056fe608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061026f806100606000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80633e1af783146100515780638da5cb5b1461007f578063aea89bf4146100c9578063cc8e2394146100d3575b600080fd5b61007d6004803603602081101561006757600080fd5b81019080803590602001909291905050506100f1565b005b61008761017f565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100d16101a4565b005b6100db6101f2565b6040518082815260200191505060405180910390f35b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541461013c57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000424201905080600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509056fea26469706673582212202b62f963e3af91d4e43ed0c991502f2cb24e6bad373076860aa8b3ab378a14df64736f6c63430006020033a264697066735822122056963288777e1d328c65f93752b4c0441a2c4364e6b67fdff61b6f797c2b175d64736f6c63430006020033",
-  "sourceMap": "51:312:1:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;51:312:1;;;;;;;",
-  "deployedSourceMap": "51:312:1:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;51:312:1;;;;;;;;;;;;;;;;;;;;;;;;81:113;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;198:162;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;198:162:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;81:113;121:7;136:16;155:13;;;;;:::i;:::-;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;155:13:1;136:32;;181:8;174:15;;;81:113;:::o;198:162::-;266:4;278:16;305:9;278:37;;348:7;328:27;;:8;:14;;;:16;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;328:16:1;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;328:16:1;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;328:16:1;;;;;;;;;;;;;;;;:27;;;321:34;;;198:162;;;;:::o;51:312::-;;;;;;;;:::o",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_instance\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_player\",\"type\":\"address\"}],\"name\":\"check\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"newInstance\",\"outputs\":[{\"internalType\":\"contract Welcome\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Game/Levels/0_Welcome_Deployer.sol\":\"WelcomeDeployer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Game/Levels/0_Welcome.sol\":{\"keccak256\":\"0xf8f2ce94078b39a73c5cc70593ec4424e5ea588247d7d4601fb6ab07ccae7eb1\",\"urls\":[\"bzz-raw://1ad9435fca9774fe9ea82a159037a8a96e3c0aa62a8e57390950284ff183e3b5\",\"dweb:/ipfs/QmaCtmyHa8ysTwc7ja5hFKPT6PfhsjP4HNonht1kETmvUR\"]},\"project:/contracts/Game/Levels/0_Welcome_Deployer.sol\":{\"keccak256\":\"0xe5babe7814a74eac13f3948bc7e6d8d4ef02a67e23208dc70d101224a0c66e71\",\"urls\":[\"bzz-raw://e171c48f20034ee6aefe72e7ccaf893af1496b61fa6aced71c0e723eb640ba04\",\"dweb:/ipfs/QmQY1EFeeyEvH9T8cMA7JvtomMyv8Xz9o3m2z8n4nrSjr9\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610506806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906101f4565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b6000808390508273ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16638da5cb5b6040518163ffffffff1660e01b815260040160206040518083038186803b15801561019957600080fd5b505afa1580156101ad573d6000803e3d6000fd5b505050506040513d60208110156101c357600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff161491505092915050565b6102cf806102028339019056fe608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061026f806100606000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80633e1af783146100515780638da5cb5b1461007f578063aea89bf4146100c9578063cc8e2394146100d3575b600080fd5b61007d6004803603602081101561006757600080fd5b81019080803590602001909291905050506100f1565b005b61008761017f565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100d16101a4565b005b6100db6101f2565b6040518082815260200191505060405180910390f35b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541461013c57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000424201905080600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509056fea2646970667358221220ac641bc18bf25eac2888e7e489620f051d09e7efc7fe30096369868bfb493fc264736f6c63430006020033a26469706673582212206f85a7ef3fa74b8a4bad2203cd4f107447b0c84fc5e6948174ad7b04b0951be464736f6c63430006020033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80635219cfa51461003b578063b3154db014610085575b600080fd5b610043610101565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100e76004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610136565b604051808215151515815260200191505060405180910390f35b600080604051610110906101f4565b604051809103906000f08015801561012c573d6000803e3d6000fd5b5090508091505090565b6000808390508273ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16638da5cb5b6040518163ffffffff1660e01b815260040160206040518083038186803b15801561019957600080fd5b505afa1580156101ad573d6000803e3d6000fd5b505050506040513d60208110156101c357600080fd5b810190808051906020019092919050505073ffffffffffffffffffffffffffffffffffffffff161491505092915050565b6102cf806102028339019056fe608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061026f806100606000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80633e1af783146100515780638da5cb5b1461007f578063aea89bf4146100c9578063cc8e2394146100d3575b600080fd5b61007d6004803603602081101561006757600080fd5b81019080803590602001909291905050506100f1565b005b61008761017f565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100d16101a4565b005b6100db6101f2565b6040518082815260200191505060405180910390f35b80600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541461013c57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000424201905080600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555050565b6000600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509056fea2646970667358221220ac641bc18bf25eac2888e7e489620f051d09e7efc7fe30096369868bfb493fc264736f6c63430006020033a26469706673582212206f85a7ef3fa74b8a4bad2203cd4f107447b0c84fc5e6948174ad7b04b0951be464736f6c63430006020033",
+  "sourceMap": "51:312:17:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;51:312:17;;;;;;;",
+  "deployedSourceMap": "51:312:17:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;51:312:17;;;;;;;;;;;;;;;;;;;;;;;;81:113;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;198:162;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;198:162:17;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;81:113;121:7;136:16;155:13;;;;;:::i;:::-;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;155:13:17;136:32;;181:8;174:15;;;81:113;:::o;198:162::-;266:4;278:16;305:9;278:37;;348:7;328:27;;:8;:14;;;:16;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;328:16:17;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;328:16:17;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;328:16:17;;;;;;;;;;;;;;;;:27;;;321:34;;;198:162;;;;:::o;51:312::-;;;;;;;;:::o",
   "source": "pragma solidity 0.6.2;\n\nimport './0_Welcome.sol';\n\ncontract WelcomeDeployer {\n\n  function newInstance () public returns (Welcome) {\n    Welcome instance = new Welcome();\n    return instance;\n  }\n\n  function check (address _instance, address _player) public returns (bool) {\n    Welcome instance = Welcome(_instance);\n    return instance.owner() == _player;\n  }\n\n}\n",
-  "sourcePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/0_Welcome_Deployer.sol",
+  "sourcePath": "/Users/gupadhyaya/go/src/github.com/harmony-one/IotDevsGame/contracts/Game/Levels/0_Welcome_Deployer.sol",
   "ast": {
-    "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/0_Welcome_Deployer.sol",
+    "absolutePath": "project:/contracts/Game/Levels/0_Welcome_Deployer.sol",
     "exportedSymbols": {
       "WelcomeDeployer": [
-        106
+        3324
       ]
     },
-    "id": 107,
+    "id": 3325,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 68,
+        "id": 3286,
         "literals": [
           "solidity",
           "0.6",
           ".2"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:22:1"
+        "src": "0:22:17"
       },
       {
-        "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/0_Welcome.sol",
+        "absolutePath": "project:/contracts/Game/Levels/0_Welcome.sol",
         "file": "./0_Welcome.sol",
-        "id": 69,
+        "id": 3287,
         "nodeType": "ImportDirective",
-        "scope": 107,
-        "sourceUnit": 67,
-        "src": "24:25:1",
+        "scope": 3325,
+        "sourceUnit": 3285,
+        "src": "24:25:17",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -81,52 +81,52 @@
         "abstract": false,
         "baseContracts": [],
         "contractDependencies": [
-          66
+          3284
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 106,
+        "id": 3324,
         "linearizedBaseContracts": [
-          106
+          3324
         ],
         "name": "WelcomeDeployer",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 82,
+              "id": 3300,
               "nodeType": "Block",
-              "src": "130:64:1",
+              "src": "130:64:17",
               "statements": [
                 {
                   "assignments": [
-                    75
+                    3293
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 75,
+                      "id": 3293,
                       "name": "instance",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-                      "scope": 82,
-                      "src": "136:16:1",
+                      "scope": 3300,
+                      "src": "136:16:17",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Welcome_$66",
+                        "typeIdentifier": "t_contract$_Welcome_$3284",
                         "typeString": "contract Welcome"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 74,
+                        "id": 3292,
                         "name": "Welcome",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 66,
-                        "src": "136:7:1",
+                        "referencedDeclaration": 3284,
+                        "src": "136:7:17",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Welcome_$66",
+                          "typeIdentifier": "t_contract$_Welcome_$3284",
                           "typeString": "contract Welcome"
                         }
                       },
@@ -134,37 +134,37 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 79,
+                  "id": 3297,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 77,
+                      "id": 3295,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "NewExpression",
-                      "src": "155:11:1",
+                      "src": "155:11:17",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Welcome_$66_$",
+                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Welcome_$3284_$",
                         "typeString": "function () returns (contract Welcome)"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 76,
+                        "id": 3294,
                         "name": "Welcome",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 66,
-                        "src": "159:7:1",
+                        "referencedDeclaration": 3284,
+                        "src": "159:7:17",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Welcome_$66",
+                          "typeIdentifier": "t_contract$_Welcome_$3284",
                           "typeString": "contract Welcome"
                         }
                       }
                     },
-                    "id": 78,
+                    "id": 3296,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -172,40 +172,40 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "155:13:1",
+                    "src": "155:13:17",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Welcome_$66",
+                      "typeIdentifier": "t_contract$_Welcome_$3284",
                       "typeString": "contract Welcome"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "136:32:1"
+                  "src": "136:32:17"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 80,
+                    "id": 3298,
                     "name": "instance",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 75,
-                    "src": "181:8:1",
+                    "referencedDeclaration": 3293,
+                    "src": "181:8:17",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Welcome_$66",
+                      "typeIdentifier": "t_contract$_Welcome_$3284",
                       "typeString": "contract Welcome"
                     }
                   },
-                  "functionReturnParameters": 73,
-                  "id": 81,
+                  "functionReturnParameters": 3291,
+                  "id": 3299,
                   "nodeType": "Return",
-                  "src": "174:15:1"
+                  "src": "174:15:17"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "5219cfa5",
-            "id": 83,
+            "id": 3301,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -213,38 +213,38 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 70,
+              "id": 3288,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "102:2:1"
+              "src": "102:2:17"
             },
             "returnParameters": {
-              "id": 73,
+              "id": 3291,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 72,
+                  "id": 3290,
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 83,
-                  "src": "121:7:1",
+                  "scope": 3301,
+                  "src": "121:7:17",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_Welcome_$66",
+                    "typeIdentifier": "t_contract$_Welcome_$3284",
                     "typeString": "contract Welcome"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 71,
+                    "id": 3289,
                     "name": "Welcome",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 66,
-                    "src": "121:7:1",
+                    "referencedDeclaration": 3284,
+                    "src": "121:7:17",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Welcome_$66",
+                      "typeIdentifier": "t_contract$_Welcome_$3284",
                       "typeString": "contract Welcome"
                     }
                   },
@@ -252,48 +252,48 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "120:9:1"
+              "src": "120:9:17"
             },
-            "scope": 106,
-            "src": "81:113:1",
+            "scope": 3324,
+            "src": "81:113:17",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 104,
+              "id": 3322,
               "nodeType": "Block",
-              "src": "272:88:1",
+              "src": "272:88:17",
               "statements": [
                 {
                   "assignments": [
-                    93
+                    3311
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 93,
+                      "id": 3311,
                       "name": "instance",
                       "nodeType": "VariableDeclaration",
                       "overrides": null,
-                      "scope": 104,
-                      "src": "278:16:1",
+                      "scope": 3322,
+                      "src": "278:16:17",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Welcome_$66",
+                        "typeIdentifier": "t_contract$_Welcome_$3284",
                         "typeString": "contract Welcome"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 92,
+                        "id": 3310,
                         "name": "Welcome",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 66,
-                        "src": "278:7:1",
+                        "referencedDeclaration": 3284,
+                        "src": "278:7:17",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Welcome_$66",
+                          "typeIdentifier": "t_contract$_Welcome_$3284",
                           "typeString": "contract Welcome"
                         }
                       },
@@ -301,18 +301,18 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 97,
+                  "id": 3315,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 95,
+                        "id": 3313,
                         "name": "_instance",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 85,
-                        "src": "305:9:1",
+                        "referencedDeclaration": 3303,
+                        "src": "305:9:17",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -326,18 +326,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 94,
+                      "id": 3312,
                       "name": "Welcome",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 66,
-                      "src": "297:7:1",
+                      "referencedDeclaration": 3284,
+                      "src": "297:7:17",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Welcome_$66_$",
+                        "typeIdentifier": "t_type$_t_contract$_Welcome_$3284_$",
                         "typeString": "type(contract Welcome)"
                       }
                     },
-                    "id": 96,
+                    "id": 3314,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -345,15 +345,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "297:18:1",
+                    "src": "297:18:17",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Welcome_$66",
+                      "typeIdentifier": "t_contract$_Welcome_$3284",
                       "typeString": "contract Welcome"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "278:37:1"
+                  "src": "278:37:17"
                 },
                 {
                   "expression": {
@@ -362,7 +362,7 @@
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     },
-                    "id": 102,
+                    "id": 3320,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -374,32 +374,32 @@
                         "argumentTypes": [],
                         "expression": {
                           "argumentTypes": null,
-                          "id": 98,
+                          "id": 3316,
                           "name": "instance",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 93,
-                          "src": "328:8:1",
+                          "referencedDeclaration": 3311,
+                          "src": "328:8:17",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Welcome_$66",
+                            "typeIdentifier": "t_contract$_Welcome_$3284",
                             "typeString": "contract Welcome"
                           }
                         },
-                        "id": 99,
+                        "id": 3317,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "owner",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3,
-                        "src": "328:14:1",
+                        "referencedDeclaration": 3221,
+                        "src": "328:14:17",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
                           "typeString": "function () view external returns (address)"
                         }
                       },
-                      "id": 100,
+                      "id": 3318,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -407,7 +407,7 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "328:16:1",
+                      "src": "328:16:17",
                       "tryCall": false,
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -418,33 +418,33 @@
                     "operator": "==",
                     "rightExpression": {
                       "argumentTypes": null,
-                      "id": 101,
+                      "id": 3319,
                       "name": "_player",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 87,
-                      "src": "348:7:1",
+                      "referencedDeclaration": 3305,
+                      "src": "348:7:17",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "328:27:1",
+                    "src": "328:27:17",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 91,
-                  "id": 103,
+                  "functionReturnParameters": 3309,
+                  "id": 3321,
                   "nodeType": "Return",
-                  "src": "321:34:1"
+                  "src": "321:34:17"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "b3154db0",
-            "id": 105,
+            "id": 3323,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -452,17 +452,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 88,
+              "id": 3306,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 85,
+                  "id": 3303,
                   "name": "_instance",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 105,
-                  "src": "214:17:1",
+                  "scope": 3323,
+                  "src": "214:17:17",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -470,10 +470,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 84,
+                    "id": 3302,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "214:7:1",
+                    "src": "214:7:17",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -485,12 +485,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 87,
+                  "id": 3305,
                   "name": "_player",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 105,
-                  "src": "233:15:1",
+                  "scope": 3323,
+                  "src": "233:15:17",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -498,10 +498,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 86,
+                    "id": 3304,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "233:7:1",
+                    "src": "233:7:17",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -512,20 +512,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "213:36:1"
+              "src": "213:36:17"
             },
             "returnParameters": {
-              "id": 91,
+              "id": 3309,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 90,
+                  "id": 3308,
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 105,
-                  "src": "266:4:1",
+                  "scope": 3323,
+                  "src": "266:4:17",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -533,10 +533,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 89,
+                    "id": 3307,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "266:4:1",
+                    "src": "266:4:17",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -546,550 +546,618 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "265:6:1"
+              "src": "265:6:17"
             },
-            "scope": 106,
-            "src": "198:162:1",
+            "scope": 3324,
+            "src": "198:162:17",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 107,
-        "src": "51:312:1"
+        "scope": 3325,
+        "src": "51:312:17"
       }
     ],
-    "src": "0:364:1"
+    "src": "0:364:17"
   },
   "legacyAST": {
-    "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/0_Welcome_Deployer.sol",
-    "exportedSymbols": {
-      "WelcomeDeployer": [
-        106
-      ]
+    "attributes": {
+      "absolutePath": "project:/contracts/Game/Levels/0_Welcome_Deployer.sol",
+      "exportedSymbols": {
+        "WelcomeDeployer": [
+          3324
+        ]
+      }
     },
-    "id": 107,
-    "nodeType": "SourceUnit",
-    "nodes": [
+    "children": [
       {
-        "id": 68,
-        "literals": [
-          "solidity",
-          "0.6",
-          ".2"
-        ],
-        "nodeType": "PragmaDirective",
-        "src": "0:22:1"
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.6",
+            ".2"
+          ]
+        },
+        "id": 3286,
+        "name": "PragmaDirective",
+        "src": "0:22:17"
       },
       {
-        "absolutePath": "/Users/dan/Documents/Coding/Solidity/New_Projects/Contracts/IotDevsGame/contracts/Game/Levels/0_Welcome.sol",
-        "file": "./0_Welcome.sol",
-        "id": 69,
-        "nodeType": "ImportDirective",
-        "scope": 107,
-        "sourceUnit": 67,
-        "src": "24:25:1",
-        "symbolAliases": [],
-        "unitAlias": ""
+        "attributes": {
+          "SourceUnit": 3285,
+          "absolutePath": "project:/contracts/Game/Levels/0_Welcome.sol",
+          "file": "./0_Welcome.sol",
+          "scope": 3325,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 3287,
+        "name": "ImportDirective",
+        "src": "24:25:17"
       },
       {
-        "abstract": false,
-        "baseContracts": [],
-        "contractDependencies": [
-          66
-        ],
-        "contractKind": "contract",
-        "documentation": null,
-        "fullyImplemented": true,
-        "id": 106,
-        "linearizedBaseContracts": [
-          106
-        ],
-        "name": "WelcomeDeployer",
-        "nodeType": "ContractDefinition",
-        "nodes": [
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            3284
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            3324
+          ],
+          "name": "WelcomeDeployer",
+          "scope": 3325
+        },
+        "children": [
           {
-            "body": {
-              "id": 82,
-              "nodeType": "Block",
-              "src": "130:64:1",
-              "statements": [
-                {
-                  "assignments": [
-                    75
-                  ],
-                  "declarations": [
-                    {
-                      "constant": false,
-                      "id": 75,
-                      "name": "instance",
-                      "nodeType": "VariableDeclaration",
-                      "overrides": null,
-                      "scope": 82,
-                      "src": "136:16:1",
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Welcome_$66",
-                        "typeString": "contract Welcome"
-                      },
-                      "typeName": {
-                        "contractScope": null,
-                        "id": 74,
-                        "name": "Welcome",
-                        "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 66,
-                        "src": "136:7:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Welcome_$66",
-                          "typeString": "contract Welcome"
-                        }
-                      },
-                      "value": null,
-                      "visibility": "internal"
-                    }
-                  ],
-                  "id": 79,
-                  "initialValue": {
-                    "argumentTypes": null,
-                    "arguments": [],
-                    "expression": {
-                      "argumentTypes": [],
-                      "id": 77,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "lValueRequested": false,
-                      "nodeType": "NewExpression",
-                      "src": "155:11:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Welcome_$66_$",
-                        "typeString": "function () returns (contract Welcome)"
-                      },
-                      "typeName": {
-                        "contractScope": null,
-                        "id": 76,
-                        "name": "Welcome",
-                        "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 66,
-                        "src": "159:7:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Welcome_$66",
-                          "typeString": "contract Welcome"
-                        }
-                      }
-                    },
-                    "id": 78,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "kind": "functionCall",
-                    "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "155:13:1",
-                    "tryCall": false,
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Welcome_$66",
-                      "typeString": "contract Welcome"
-                    }
-                  },
-                  "nodeType": "VariableDeclarationStatement",
-                  "src": "136:32:1"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 80,
-                    "name": "instance",
-                    "nodeType": "Identifier",
-                    "overloadedDeclarations": [],
-                    "referencedDeclaration": 75,
-                    "src": "181:8:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Welcome_$66",
-                      "typeString": "contract Welcome"
-                    }
-                  },
-                  "functionReturnParameters": 73,
-                  "id": 81,
-                  "nodeType": "Return",
-                  "src": "174:15:1"
-                }
-              ]
-            },
-            "documentation": null,
-            "functionSelector": "5219cfa5",
-            "id": 83,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "newInstance",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 70,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "102:2:1"
-            },
-            "returnParameters": {
-              "id": 73,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 72,
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 83,
-                  "src": "121:7:1",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_Welcome_$66",
-                    "typeString": "contract Welcome"
-                  },
-                  "typeName": {
-                    "contractScope": null,
-                    "id": 71,
-                    "name": "Welcome",
-                    "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 66,
-                    "src": "121:7:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Welcome_$66",
-                      "typeString": "contract Welcome"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
+            "attributes": {
+              "documentation": null,
+              "functionSelector": "5219cfa5",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
               ],
-              "src": "120:9:1"
+              "name": "newInstance",
+              "overrides": null,
+              "scope": 3324,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
             },
-            "scope": 106,
-            "src": "81:113:1",
-            "stateMutability": "nonpayable",
-            "virtual": false,
-            "visibility": "public"
-          },
-          {
-            "body": {
-              "id": 104,
-              "nodeType": "Block",
-              "src": "272:88:1",
-              "statements": [
-                {
-                  "assignments": [
-                    93
-                  ],
-                  "declarations": [
-                    {
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3288,
+                "name": "ParameterList",
+                "src": "102:2:17"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
                       "constant": false,
-                      "id": 93,
-                      "name": "instance",
-                      "nodeType": "VariableDeclaration",
+                      "name": "",
                       "overrides": null,
-                      "scope": 104,
-                      "src": "278:16:1",
+                      "scope": 3301,
                       "stateVariable": false,
                       "storageLocation": "default",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Welcome_$66",
-                        "typeString": "contract Welcome"
-                      },
-                      "typeName": {
-                        "contractScope": null,
-                        "id": 92,
-                        "name": "Welcome",
-                        "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 66,
-                        "src": "278:7:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Welcome_$66",
-                          "typeString": "contract Welcome"
-                        }
-                      },
+                      "type": "contract Welcome",
                       "value": null,
                       "visibility": "internal"
-                    }
-                  ],
-                  "id": 97,
-                  "initialValue": {
-                    "argumentTypes": null,
-                    "arguments": [
+                    },
+                    "children": [
                       {
-                        "argumentTypes": null,
-                        "id": 95,
-                        "name": "_instance",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 85,
-                        "src": "305:9:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_address",
-                          "typeString": "address"
-                        }
+                        "attributes": {
+                          "contractScope": null,
+                          "name": "Welcome",
+                          "referencedDeclaration": 3284,
+                          "type": "contract Welcome"
+                        },
+                        "id": 3289,
+                        "name": "UserDefinedTypeName",
+                        "src": "121:7:17"
                       }
                     ],
-                    "expression": {
-                      "argumentTypes": [
-                        {
-                          "typeIdentifier": "t_address",
-                          "typeString": "address"
-                        }
-                      ],
-                      "id": 94,
-                      "name": "Welcome",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 66,
-                      "src": "297:7:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Welcome_$66_$",
-                        "typeString": "type(contract Welcome)"
-                      }
+                    "id": 3290,
+                    "name": "VariableDeclaration",
+                    "src": "121:7:17"
+                  }
+                ],
+                "id": 3291,
+                "name": "ParameterList",
+                "src": "120:9:17"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        3293
+                      ]
                     },
-                    "id": 96,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "kind": "typeConversion",
-                    "lValueRequested": false,
-                    "names": [],
-                    "nodeType": "FunctionCall",
-                    "src": "297:18:1",
-                    "tryCall": false,
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Welcome_$66",
-                      "typeString": "contract Welcome"
-                    }
-                  },
-                  "nodeType": "VariableDeclarationStatement",
-                  "src": "278:37:1"
-                },
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "commonType": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    },
-                    "id": 102,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftExpression": {
-                      "argumentTypes": null,
-                      "arguments": [],
-                      "expression": {
-                        "argumentTypes": [],
-                        "expression": {
-                          "argumentTypes": null,
-                          "id": 98,
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
                           "name": "instance",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 93,
-                          "src": "328:8:1",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Welcome_$66",
-                            "typeString": "contract Welcome"
-                          }
+                          "overrides": null,
+                          "scope": 3300,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "contract Welcome",
+                          "value": null,
+                          "visibility": "internal"
                         },
-                        "id": 99,
-                        "isConstant": false,
-                        "isLValue": false,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "memberName": "owner",
-                        "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3,
-                        "src": "328:14:1",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
-                          "typeString": "function () view external returns (address)"
-                        }
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "Welcome",
+                              "referencedDeclaration": 3284,
+                              "type": "contract Welcome"
+                            },
+                            "id": 3292,
+                            "name": "UserDefinedTypeName",
+                            "src": "136:7:17"
+                          }
+                        ],
+                        "id": 3293,
+                        "name": "VariableDeclaration",
+                        "src": "136:16:17"
                       },
-                      "id": 100,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "kind": "functionCall",
-                      "lValueRequested": false,
-                      "names": [],
-                      "nodeType": "FunctionCall",
-                      "src": "328:16:1",
-                      "tryCall": false,
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            null
+                          ],
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "isStructConstructorCall": false,
+                          "lValueRequested": false,
+                          "names": [
+                            null
+                          ],
+                          "tryCall": false,
+                          "type": "contract Welcome",
+                          "type_conversion": false
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                null
+                              ],
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "function () returns (contract Welcome)"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "contractScope": null,
+                                  "name": "Welcome",
+                                  "referencedDeclaration": 3284,
+                                  "type": "contract Welcome"
+                                },
+                                "id": 3294,
+                                "name": "UserDefinedTypeName",
+                                "src": "159:7:17"
+                              }
+                            ],
+                            "id": 3295,
+                            "name": "NewExpression",
+                            "src": "155:11:17"
+                          }
+                        ],
+                        "id": 3296,
+                        "name": "FunctionCall",
+                        "src": "155:13:17"
                       }
+                    ],
+                    "id": 3297,
+                    "name": "VariableDeclarationStatement",
+                    "src": "136:32:17"
+                  },
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 3291
                     },
-                    "nodeType": "BinaryOperation",
-                    "operator": "==",
-                    "rightExpression": {
-                      "argumentTypes": null,
-                      "id": 101,
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "overloadedDeclarations": [
+                            null
+                          ],
+                          "referencedDeclaration": 3293,
+                          "type": "contract Welcome",
+                          "value": "instance"
+                        },
+                        "id": 3298,
+                        "name": "Identifier",
+                        "src": "181:8:17"
+                      }
+                    ],
+                    "id": 3299,
+                    "name": "Return",
+                    "src": "174:15:17"
+                  }
+                ],
+                "id": 3300,
+                "name": "Block",
+                "src": "130:64:17"
+              }
+            ],
+            "id": 3301,
+            "name": "FunctionDefinition",
+            "src": "81:113:17"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "functionSelector": "b3154db0",
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "check",
+              "overrides": null,
+              "scope": 3324,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_instance",
+                      "overrides": null,
+                      "scope": 3323,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 3302,
+                        "name": "ElementaryTypeName",
+                        "src": "214:7:17"
+                      }
+                    ],
+                    "id": 3303,
+                    "name": "VariableDeclaration",
+                    "src": "214:17:17"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
                       "name": "_player",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 87,
-                      "src": "348:7:1",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
+                      "overrides": null,
+                      "scope": 3323,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
                     },
-                    "src": "328:27:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_bool",
-                      "typeString": "bool"
-                    }
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 3304,
+                        "name": "ElementaryTypeName",
+                        "src": "233:7:17"
+                      }
+                    ],
+                    "id": 3305,
+                    "name": "VariableDeclaration",
+                    "src": "233:15:17"
+                  }
+                ],
+                "id": 3306,
+                "name": "ParameterList",
+                "src": "213:36:17"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "overrides": null,
+                      "scope": 3323,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bool",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bool",
+                          "type": "bool"
+                        },
+                        "id": 3307,
+                        "name": "ElementaryTypeName",
+                        "src": "266:4:17"
+                      }
+                    ],
+                    "id": 3308,
+                    "name": "VariableDeclaration",
+                    "src": "266:4:17"
+                  }
+                ],
+                "id": 3309,
+                "name": "ParameterList",
+                "src": "265:6:17"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "assignments": [
+                        3311
+                      ]
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "constant": false,
+                          "name": "instance",
+                          "overrides": null,
+                          "scope": 3322,
+                          "stateVariable": false,
+                          "storageLocation": "default",
+                          "type": "contract Welcome",
+                          "value": null,
+                          "visibility": "internal"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "contractScope": null,
+                              "name": "Welcome",
+                              "referencedDeclaration": 3284,
+                              "type": "contract Welcome"
+                            },
+                            "id": 3310,
+                            "name": "UserDefinedTypeName",
+                            "src": "278:7:17"
+                          }
+                        ],
+                        "id": 3311,
+                        "name": "VariableDeclaration",
+                        "src": "278:16:17"
+                      },
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "isStructConstructorCall": false,
+                          "lValueRequested": false,
+                          "names": [
+                            null
+                          ],
+                          "tryCall": false,
+                          "type": "contract Welcome",
+                          "type_conversion": true
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              ],
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 3284,
+                              "type": "type(contract Welcome)",
+                              "value": "Welcome"
+                            },
+                            "id": 3312,
+                            "name": "Identifier",
+                            "src": "297:7:17"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 3303,
+                              "type": "address",
+                              "value": "_instance"
+                            },
+                            "id": 3313,
+                            "name": "Identifier",
+                            "src": "305:9:17"
+                          }
+                        ],
+                        "id": 3314,
+                        "name": "FunctionCall",
+                        "src": "297:18:17"
+                      }
+                    ],
+                    "id": 3315,
+                    "name": "VariableDeclarationStatement",
+                    "src": "278:37:17"
                   },
-                  "functionReturnParameters": 91,
-                  "id": 103,
-                  "nodeType": "Return",
-                  "src": "321:34:1"
-                }
-              ]
-            },
-            "documentation": null,
-            "functionSelector": "b3154db0",
-            "id": 105,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "check",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 88,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 85,
-                  "name": "_instance",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 105,
-                  "src": "214:17:1",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 84,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "214:7:1",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                },
-                {
-                  "constant": false,
-                  "id": 87,
-                  "name": "_player",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 105,
-                  "src": "233:15:1",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_address",
-                    "typeString": "address"
-                  },
-                  "typeName": {
-                    "id": 86,
-                    "name": "address",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "233:7:1",
-                    "stateMutability": "nonpayable",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "213:36:1"
-            },
-            "returnParameters": {
-              "id": 91,
-              "nodeType": "ParameterList",
-              "parameters": [
-                {
-                  "constant": false,
-                  "id": 90,
-                  "name": "",
-                  "nodeType": "VariableDeclaration",
-                  "overrides": null,
-                  "scope": 105,
-                  "src": "266:4:1",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_bool",
-                    "typeString": "bool"
-                  },
-                  "typeName": {
-                    "id": 89,
-                    "name": "bool",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "266:4:1",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_bool",
-                      "typeString": "bool"
-                    }
-                  },
-                  "value": null,
-                  "visibility": "internal"
-                }
-              ],
-              "src": "265:6:1"
-            },
-            "scope": 106,
-            "src": "198:162:1",
-            "stateMutability": "nonpayable",
-            "virtual": false,
-            "visibility": "public"
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 3309
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          },
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "==",
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "arguments": [
+                                null
+                              ],
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "isStructConstructorCall": false,
+                              "lValueRequested": false,
+                              "names": [
+                                null
+                              ],
+                              "tryCall": false,
+                              "type": "address",
+                              "type_conversion": false
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": [
+                                    null
+                                  ],
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "member_name": "owner",
+                                  "referencedDeclaration": 3221,
+                                  "type": "function () view external returns (address)"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 3311,
+                                      "type": "contract Welcome",
+                                      "value": "instance"
+                                    },
+                                    "id": 3316,
+                                    "name": "Identifier",
+                                    "src": "328:8:17"
+                                  }
+                                ],
+                                "id": 3317,
+                                "name": "MemberAccess",
+                                "src": "328:14:17"
+                              }
+                            ],
+                            "id": 3318,
+                            "name": "FunctionCall",
+                            "src": "328:16:17"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 3305,
+                              "type": "address",
+                              "value": "_player"
+                            },
+                            "id": 3319,
+                            "name": "Identifier",
+                            "src": "348:7:17"
+                          }
+                        ],
+                        "id": 3320,
+                        "name": "BinaryOperation",
+                        "src": "328:27:17"
+                      }
+                    ],
+                    "id": 3321,
+                    "name": "Return",
+                    "src": "321:34:17"
+                  }
+                ],
+                "id": 3322,
+                "name": "Block",
+                "src": "272:88:17"
+              }
+            ],
+            "id": 3323,
+            "name": "FunctionDefinition",
+            "src": "198:162:17"
           }
         ],
-        "scope": 107,
-        "src": "51:312:1"
+        "id": 3324,
+        "name": "ContractDefinition",
+        "src": "51:312:17"
       }
     ],
-    "src": "0:364:1"
+    "id": 3325,
+    "name": "SourceUnit",
+    "src": "0:364:17"
   },
   "compiler": {
     "name": "solc",
     "version": "0.6.2+commit.bacdbe57.Emscripten.clang"
   },
   "networks": {
-    "5777": {
+    "1666700000": {
       "events": {},
       "links": {},
-      "address": "0x30a577c4047E36ecc950bFb76ab6984D7e469325",
-      "transactionHash": "0x15c2ba621709591ad53cfc5c62a37db1d823f7745c719099889a24b637944da1"
+      "address": "0x5F7EB922E0A6Fc33B9Bc6a404c8c20Ce40b7E0De",
+      "transactionHash": "0x2f3ab34cea1e2c910c130140c3ccfa05b8fab72087c4a48c8408c22dccf0f75a"
     }
   },
-  "schemaVersion": "3.2.2",
-  "updatedAt": "2020-09-28T14:04:27.617Z",
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-07-28T14:11:53.364Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

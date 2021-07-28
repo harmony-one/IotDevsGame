@@ -30,31 +30,11 @@ Contracts > Game > Levels.
 
 ## Starter kit
 
-### Register on Infura
+### Deploy on Harmony testnet
 
-https://infura.io/register
-
-### Deploy on Ropsten
-
-Go to truffle-config.js and add your Infura api and your mnemonic
-
-```
-const infuraApi = "** Your Infura apy key **";
-```
-
-```
-const mnemonic = "** Your mnemonic **";
-```
-
-
-### migrate the main contract to Ropsten
-
-```
-truffle migrate --reset --network ropsten
-```
-
-Once the migration has been done
-
-```
-truffle console --network ropsten
-```
+Steps
+* `npm install`
+* `truffle compile`
+* `truffle migrate --reset --network testnet`
+* `npm start` which should popup http://localhost:3000/ page
+* make sure to connect metamask to harmony testnet, as the dbank contracts are deployed on harmony testnet 
